@@ -1,0 +1,110 @@
+doctype html
+html
+	head
+		title jade assignment template
+		link(rel="stylesheet",href="css/reset.css")
+		link(rel="stylesheet",href="css/style.css")
+		script(src='http://code.jquery.com/jquery.min.js', type='text/javascript')
+	body
+		div.container
+			header.header
+				div.header__logo
+					a(href="#")
+						img(src="images/synthetica-logo.png")
+				nav.header__menus
+					ul
+						li.header__menu 
+							a.header__menu__link(href="#") THE COLLECTIVE
+						li.header__menu 
+							a.header__menu__link(href="#") THE CREW
+						li.header__menu 
+							a.header__menu__link(href="#") ARTICALS
+						li.header__menu.header__menu__freebies
+							a.header__menu__link(href="#") FREEBIES
+				div.header__subscribe
+					ul.header__subscribe__list
+						li.header__subscribe-menu
+							a.header__subscribe-menu__link(href="#") SUBSCRIBE
+						li.header__subscribe-menu__search
+							a.header__subscribe-menu__search__link(href="#")
+								img.search-img(src="images/search.png")
+				div.header__search
+					input.header__search__input(type="text" placeholder="Start typing then hit enter to search")
+					img.header__search__closebtn(src="images/close-button.png")
+			div.carousel-divs 
+				div.carousel-div
+			div.collectiveMenu 
+				h1.collectiveMenu__heading.Menu__heading THE COLLECTIVE
+				div.collectiveMenu__container
+					p.collectiveMenu__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
+					div.collectiveMenu__videoPlayer
+						video.collectiveMenu__video(controls)
+							source(src='images/oceans.mp4',type='video/mp4')
+					p.collectiveMenu__information.collectiveMenu-bottompadding 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa.
+					p.collectiveMenu__information Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
+			div.crewMenu
+				h1.crewMenu__heading.Menu__heading THE CREW
+				div.crewMenu__imageConatiner
+					div.crewMenuImages.crewMenu__image__firstCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__secondCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__thirdCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__fourthCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
+							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+				div.crewMenu__progressBarsHolder
+					div.crewMenu__progressBarContainer
+						p.progressBar_title EXPERIENCE DESIGN 
+						p.progressBar__percentage 90%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=90)
+					div.crewMenu__progressBarContainer.crewMenu__progressBarContainer-leftmargin
+						p.progressBar_title INTERACTIVE PROTOTYPING 
+						p.progressBar__percentage 80%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=80)
+					div.crewMenu__progressBarContainer.crewMenu__progressBarContainer-topmargin
+						p.progressBar_title HTML5/CSS3  
+						p.progressBar__percentage 95%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=95)
+					div.crewMenu__progressBarContainer.crewMenu__visualDesignProgressBar-margin
+						p.progressBar_title VISUAL DESIGN
+						p.progressBar__percentage 90%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=90)
+			div.TimmerdivHolder
+						div.Timmerdiv.awardsdiv
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number 24
+								p.Timmerdiv__text AWARDS WON
+						div.Timmerdiv.articles
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number 341
+								p.Timmerdiv__text ARTICLES
+						div.Timmerdiv.freebies
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number 43
+								p.Timmerdiv__text FREEBIES
+		script(src='js/script.js')
+			
