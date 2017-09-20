@@ -12,24 +12,33 @@
         <div class="header__logo"><a href="#"><img src="images/synthetica-logo.png"></a></div>
         <nav class="header__menus">
           <ul>
-            <li class="header__menu"> <a href="#" class="header__menu__link">THE COLLECTIVE</a></li>
-            <li class="header__menu"> <a href="#" class="header__menu__link">THE CREW</a></li>
-            <li class="header__menu"> <a href="#" class="header__menu__link">ARTICALS</a></li>
-            <li class="header__menu header__menu__freebies"><a href="#" class="header__menu__link">FREEBIES</a></li>
+            <li class="header__menu"> <a href="#" class="header__menu__link collective__link">THE COLLECTIVE</a></li>
+            <li class="header__menu"> <a href="#" class="header__menu__link crew__link">THE CREW</a></li>
+            <li class="header__menu"> <a href="#" class="header__menu__link articales__link">ARTICALS</a></li>
+            <li class="header__menu header__menu__freebies"><a href="#" class="header__menu__link freebies__link">FREEBIES</a></li>
           </ul>
         </nav>
         <div class="header__subscribe">
           <ul class="header__subscribe__list">
-            <li class="header__subscribe-menu"><a href="#" class="header__subscribe-menu__link">SUBSCRIBE</a></li>
-            <li class="header__subscribe-menu__search"><a href="#" class="header__subscribe-menu__search__link"><img src="images/search.png" class="search-img"></a></li>
+            <li class="header__subscribe-menu"><a href="#" class="header__subscribe-menu__link subscribe__link">SUBSCRIBE</a></li>
+            <li class="header__subscribe-menu__search"><a href="#" class="header__subscribe-menu__search__link"><img src="images/search.png" id="searchBtn" class="search-img"></a></li>
           </ul>
         </div>
         <div class="header__search">
-          <input type="text" placeholder="Start typing then hit enter to search" class="header__search__input"><img src="images/close-button.png" class="header__search__closebtn">
+          <input type="text" placeholder="Start typing then hit enter to search" class="header__search__input"><a href="#"><img src="images/close-button.png" id="closeBtn" class="header__search__closebtn"></a>
         </div>
       </header>
       <div class="carousel-divs"> 
-        <div class="carousel-div"></div>
+        <div class="carousel-div first__carousel-div">
+          <div class="carousel-div__overlay">
+            <h2 class="carousel-div__overlay__heading">Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.</h2><a href="#" class="learn-more__link">LEARN MORE</a><span class="carousel-div__overlay__data">
+               
+              Synthetica is a <b><i class="carousel-div__free">FREE</i></b>, HTML5/CSS3 template, available for download exclusively via Codrops. </span>
+          </div>
+        </div>
+        <div class="carousel-div second__carousel-div"></div>
+        <div class="carousel-div third__carousel-div"></div>
+        <div class="dotConatiner"><span onclick="currentSlide(1)" class="dot"></span><span onclick="currentSlide(2)" class="dot"></span><span onclick="currentSlide(3)" class="dot"></span></div>
       </div>
       <div class="collectiveMenu"> 
         <h1 class="collectiveMenu__heading Menu__heading">THE COLLECTIVE</h1>
@@ -106,23 +115,166 @@
       <div class="TimmerdivHolder">
         <div class="Timmerdiv awardsdiv"><img src="images/big-winners-cup-icon.png" class="Timmerdiv__icon">
           <div class="Timmerdiv__information">
-            <p class="Timmerdiv__number">24</p>
+            <p data-number='24' class="Timmerdiv__number">24</p>
             <p class="Timmerdiv__text">AWARDS WON</p>
           </div>
         </div>
         <div class="Timmerdiv articles"><img src="images/big-winners-cup-icon.png" class="Timmerdiv__icon">
           <div class="Timmerdiv__information">
-            <p class="Timmerdiv__number">341</p>
+            <p data-number='341' class="Timmerdiv__number">341</p>
             <p class="Timmerdiv__text">ARTICLES</p>
           </div>
         </div>
         <div class="Timmerdiv freebies"><img src="images/big-winners-cup-icon.png" class="Timmerdiv__icon">
           <div class="Timmerdiv__information">
-            <p class="Timmerdiv__number">43</p>
+            <p data-number='43' class="Timmerdiv__number">43</p>
             <p class="Timmerdiv__text">FREEBIES</p>
           </div>
         </div>
       </div>
+      <div class="articlesMenu">
+        <div class="articlesMenu__headerContainer">
+          <h1 class="Menu__heading articlesMenu__heading">LATEST ARTICLES</h1>
+          <div class="articlesMenu__dropdownDiv">
+            <h2 class="articlesMenu__dropdownTitle">SORT BY</h2>
+            <select class="articlesMenu__dropdown">
+              <option value="Experience Design">Experience Design</option>
+              <option value="Visual Design">Visual Design</option>
+              <option value="UI Patterns">UI Patterns</option>
+              <option value="UI Patterns">Product Design</option>
+            </select>
+          </div>
+        </div>
+        <div class="articlesMenu__articlesContainer">
+          <div class="articlesMenu__articlesHolder"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">8 solid tips when working with front-end developers</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">Product</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>51</span></p>
+            </div>
+          </div>
+          <div class="articlesMenu__articlesHolder"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">The 10 best traits of a awesome design leaders</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">Teams</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>42</span></p>
+            </div>
+          </div>
+          <div class="articlesMenu__articlesHolder articleOnTeams"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">How to design well collaboratively with an agile product team</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">Teams</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>58</span></p>
+            </div>
+          </div>
+          <div class="articlesMenu__articlesHolder"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">The essentials of modern interaction design (mobile + tablet)</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">UX Design</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>14</span></p>
+            </div>
+          </div>
+          <div class="articlesMenu__articlesHolder"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">Overcoming barriers encountered in the pitch process (part 1)</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">Product</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>55</span></p>
+            </div>
+          </div>
+          <div class="articlesMenu__articlesHolder articleOnUXDesign"><a href="#" class="articlesMenu__article__link">
+              <div class="articlesMenu__articleImage">
+                <div class="Image__overlay"></div>
+              </div>
+              <h1 class="articlesMenu__article__title">10 things we've learnt about our users (Case Study)</h1>
+              <p class="articlesMenu__article__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...</p></a>
+            <div class="articlesMenu__article__footer"><a href="#" class="article__footer__link">UX Design</a>
+              <p class="article__footer__comment"><img src="images/Speach-Bubble13-512.png" class="article__footer__CommentImage"><span>20</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="articlesMenu__viewMore"><a href="#" class="viewMore__link">VIEW MORE</a></div>
+      </div>
+      <div class="FreshestFreebiesMenu">
+        <h1 class="Menu__heading FreshestFreebiesMenu__heading">FRESHEST FREEBIES</h1>
+        <div class="FreshestFreebiesMenu__information">
+          <section class="FreshestFreebiesMenu__leftsection__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</section>
+          <section class="FreshestFreebiesMenu__rightsection__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</section>
+        </div>
+        <div class="FreshestFreebiesMenu__ImagesConatiner">
+          <div class="FreshestFreebiesMenu__ImageHolder">
+            <div class="Image__overlay"></div>
+            <div class="FreshestFreebiesMenu__Image__overlay">
+              <div class="FreshestFreebiesMenu__likeDiv"><a href="#"><img src="images/favorite.png" class="FreshestFreebiesMenu__likeImg"></a><span class="FreshestFreebiesMenu__likeCount">79</span></div>
+              <div class="FreshestFreebiesMenu__Image__overlay__data">
+                <p class="Image__overlay__date">03/01/2016</p>
+                <h2 class="Image__overlay__heading">SEDNA HTML CSS TEMPLATE</h2><a href="#" class="Image__overlay__link">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+          <div class="FreshestFreebiesMenu__ImageHolder">
+            <div class="Image__overlay"></div>
+            <div class="FreshestFreebiesMenu__Image__overlay">
+              <div class="FreshestFreebiesMenu__likeDiv"><a href="#"><img src="images/favorite.png" class="FreshestFreebiesMenu__likeImg"></a><span class="FreshestFreebiesMenu__likeCount">94</span></div>
+              <div class="FreshestFreebiesMenu__Image__overlay__data">
+                <p class="Image__overlay__date">03/01/2016</p>
+                <h2 class="Image__overlay__heading">SEDNA HTML CSS TEMPLATE</h2><a href="#" class="Image__overlay__link">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+          <div class="FreshestFreebiesMenu__ImageHolder">
+            <div class="Image__overlay"></div>
+            <div class="FreshestFreebiesMenu__Image__overlay">
+              <div class="FreshestFreebiesMenu__likeDiv"><a href="#"><img src="images/favorite.png" class="FreshestFreebiesMenu__likeImg"></a><span class="FreshestFreebiesMenu__likeCount">40</span></div>
+              <div class="FreshestFreebiesMenu__Image__overlay__data">
+                <p class="Image__overlay__date">03/01/2016</p>
+                <h2 class="Image__overlay__heading">SEDNA HTML CSS TEMPLATE</h2><a href="#" class="Image__overlay__link">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+          <div class="FreshestFreebiesMenu__ImageHolder">
+            <div class="Image__overlay"> </div>
+            <div class="FreshestFreebiesMenu__Image__overlay">
+              <div class="FreshestFreebiesMenu__likeDiv"><a href="#"><img src="images/favorite.png" class="FreshestFreebiesMenu__likeImg"></a><span class="FreshestFreebiesMenu__likeCount">84</span></div>
+              <div class="FreshestFreebiesMenu__Image__overlay__data">
+                <p class="Image__overlay__date">03/01/2016</p>
+                <h2 class="Image__overlay__heading">SEDNA HTML CSS TEMPLATE</h2><a href="#" class="Image__overlay__link">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="FreshestFreebiesMenu__viewMore"><a href="#" class="viewMore__link">VIEW MORE</a></div>
+      </div>
+      <div class="getStarted">
+        <h2 class="getStarted__heading">Get started now. Download Synthetica <a href="#" class="free__link">FREE</a>, via Codrops.</h2><a href="#" class="getStarted__link">GET STARTED</a>
+      </div>
+      <footer class="footer">
+        <div class="footer__dataConatiner"><img src="images/synthetica-logo.png" class="footerLogo">
+          <h2 class="footer__data">A free HTML5/CSS3 template, exclusively for <b><i>Codrops</i></b></h2>
+        </div>
+        <div class="footer__linkConatiner">
+          <div class="footer__left__linkConatiner"><a href="#" class="footer__link collective__link">The Collective</a><a href="#" class="footer__link crew__link">The Crew</a><a href="#" class="footer__link articales__link">Articles</a><a href="#" class="footer__link freebies__link">Freebies</a><a href="#" class="footer__link">Subscribe</a></div>
+          <div class="footer__right__linkConatiner"><a href="#" class="footer__link">Licence</a><a href="#" class="footer__link footer__link__share">Share</a></div>
+          <h1 class="footer__information">
+             
+            A free website template created exclusively for <a href="#" class="Codrops__link">Codrops</a>
+          </h1>
+        </div>
+      </footer>
     </div>
     <script src="js/script.js"></script>
   </body>
