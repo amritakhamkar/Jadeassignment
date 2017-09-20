@@ -150,7 +150,7 @@ body{
 }
 .carousel-div__overlay__data {
     display: block;
-    padding: 20px 30px 0 30px;
+    padding: 30px 30px 0 30px;
     color:rgba(255,255,255,0.8);
     font-size: 15px;
     font-weight: 200;
@@ -158,6 +158,10 @@ body{
 }
 .carousel-div__free{
     color: #fff;
+}
+.carousel-div__overlay__dataConatiner{
+   width: 74%;
+   margin: 0 auto;
 }
 .learn-more__link{
     text-decoration: none;
@@ -168,6 +172,8 @@ body{
     font-size: 15px;
     font-weight: 300;
     background-color: #7AE2DE;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .first__carousel-div{
     background:url('../images/hero-bg-01.jpg');
