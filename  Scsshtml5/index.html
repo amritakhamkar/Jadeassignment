@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>scss assignment template</title>
+    <title>jade assignment template</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/shortIcon.png">
@@ -52,10 +52,10 @@
             <div class="carousel-div__overlay__dataConatiner"><span class="carousel-div__overlay__data">Available exclusively from Codrops.</span></div>
           </div>
         </div>
-        <div class="dotConatiner"><span class="dot firstSlide"></span><span class="dot secondSlide"></span><span class="dot thirdSlide"></span></div>
+        <div class="dotConatiner"><span onclick="currentSlide(1)" class="dot"></span><span onclick="currentSlide(2)" class="dot"></span><span onclick="currentSlide(3)" class="dot"></span></div>
       </div>
       <div class="collectiveMenu"> 
-        <h1 class="collectiveMenu__heading">THE COLLECTIVE</h1>
+        <h1 class="collectiveMenu__heading menu__heading">THE COLLECTIVE</h1>
         <div class="collectiveMenu__container">
           <p class="collectiveMenu__information">8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.</p>
           <div class="collectiveMenu__videoPlayer">
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="crewMenu">
-        <h1 class="crewMenu__heading">THE CREW</h1>
+        <h1 class="crewMenu__heading menu__heading">THE CREW</h1>
         <div class="crewMenu__imageConatiner">
           <div class="crewMenuImages crewMenu__image__firstCrewMember">
             <div class="crewMenuImages__overlay">
@@ -148,7 +148,7 @@
       </div>
       <div class="articlesMenu">
         <div class="articlesMenu__headerContainer">
-          <h1 class="articlesMenu__heading">LATEST ARTICLES</h1>
+          <h1 class="menu__heading articlesMenu__heading">LATEST ARTICLES</h1>
           <div class="articlesMenu__dropdownDiv">
             <h2 class="articlesMenu__dropdownTitle">SORT BY</h2>
             <select class="articlesMenu__dropdown">
@@ -224,7 +224,7 @@
         <div class="articlesMenu__viewMore"><a href="#" class="viewMore__link">VIEW MORE</a></div>
       </div>
       <div class="FreshestFreebiesMenu">
-        <h1 class="FreshestFreebiesMenu__heading">FRESHEST FREEBIES</h1>
+        <h1 class="menu__heading FreshestFreebiesMenu__heading">FRESHEST FREEBIES</h1>
         <div class="FreshestFreebiesMenu__information">
           <section class="FreshestFreebiesMenu__leftsection__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</section>
           <section class="FreshestFreebiesMenu__rightsection__information">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.</section>
@@ -293,6 +293,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/script1.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

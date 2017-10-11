@@ -1,7 +1,7 @@
 doctype html
 html
 	head
-		title scss assignment template
+		title jade assignment template
 		link(rel="stylesheet",href="css/reset.css")
 		link(rel="stylesheet",href="css/style.css")
 		link(rel="shortcut icon" href="images/shortIcon.png")
@@ -58,11 +58,11 @@ html
 						div.carousel-div__overlay__dataConatiner
 							span.carousel-div__overlay__data Available exclusively from Codrops.
 				div.dotConatiner
-					span.dot.firstSlide
-					span.dot.secondSlide
-					span.dot.thirdSlide
+					span.dot(onclick='currentSlide(1)')
+					span.dot(onclick='currentSlide(2)')
+					span.dot(onclick='currentSlide(3)')
 			div.collectiveMenu 
-				h1.collectiveMenu__heading THE COLLECTIVE
+				h1.collectiveMenu__heading.menu__heading THE COLLECTIVE
 				div.collectiveMenu__container
 					p.collectiveMenu__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
 					div.collectiveMenu__videoPlayer
@@ -71,7 +71,7 @@ html
 					p.collectiveMenu__information.collectiveMenu-bottompadding 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa.
 					p.collectiveMenu__information Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
 			div.crewMenu
-				h1.crewMenu__heading THE CREW
+				h1.crewMenu__heading.menu__heading THE CREW
 				div.crewMenu__imageConatiner
 					div.crewMenuImages.crewMenu__image__firstCrewMember
 						div.crewMenuImages__overlay
@@ -136,7 +136,7 @@ html
 								p.Timmerdiv__text FREEBIES
 			div.articlesMenu
 				div.articlesMenu__headerContainer
-					h1.articlesMenu__heading LATEST ARTICLES
+					h1.menu__heading.articlesMenu__heading LATEST ARTICLES
 					div.articlesMenu__dropdownDiv
 						h2.articlesMenu__dropdownTitle SORT BY
 						select.articlesMenu__dropdown
@@ -214,7 +214,7 @@ html
 				div.articlesMenu__viewMore
 					a(href="#").viewMore__link VIEW MORE
 			div.FreshestFreebiesMenu
-				h1.FreshestFreebiesMenu__heading FRESHEST FREEBIES
+				h1.menu__heading.FreshestFreebiesMenu__heading FRESHEST FREEBIES
 				div.FreshestFreebiesMenu__information
 					section.FreshestFreebiesMenu__leftsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
 					section.FreshestFreebiesMenu__rightsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
@@ -290,5 +290,5 @@ html
 					h1.footer__information 
 						|A free website template created exclusively for 
 						a(href='#').Codrops__link Codrops
-		script(src='js/script1.js')
+		script(src='js/script.js')
 			
