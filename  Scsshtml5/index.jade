@@ -1,0 +1,294 @@
+doctype html
+html
+	head
+		title scss assignment template
+		link(rel="stylesheet",href="css/reset.css")
+		link(rel="stylesheet",href="css/style.css")
+		link(rel="shortcut icon" href="images/shortIcon.png")
+		script(src='http://code.jquery.com/jquery.min.js', type='text/javascript')
+	body
+		div.container
+			header.header
+				div.header__logo
+					a(href="#")
+						img(src="images/synthetica-logo.png")
+				nav.header__menus
+					ul
+						li.header__menu 
+							a(href="#").header__menu__link.collective__link THE COLLECTIVE
+						li.header__menu 
+							a(href="#").header__menu__link.crew__link THE CREW
+						li.header__menu 
+							a(href="#").header__menu__link.articales__link ARTICALS
+						li.header__menu.header__menu__freebies
+							a(href="#").header__menu__link.freebies__link FREEBIES
+				div.header__subscribe
+					ul.header__subscribe__list
+						li.header__subscribe-menu
+							a(href="#").header__subscribe-menu__link.subscribe__link SUBSCRIBE
+						li.header__subscribe-menu__search
+							a(href="#").header__subscribe-menu__search__link
+								img.search-img.toggleBtn(src="images/search.png" id="searchBtn")
+				div.header__search
+					input.header__search__input(type="text" placeholder="Start typing then hit enter to search")
+					a(href="#")
+						img.header__search__closebtn.toggleBtn(src="images/close-button.png" id="closeBtn")
+			div.carousel-divs 
+				div.carousel-div.first__carousel-div
+					div.carousel-div__overlay
+						div.carousel-div__overlay__Conatiner
+							h2.carousel-div__overlay__heading Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.
+							a(href='#').learn-more__link LEARN MORE
+							div.carousel-div__overlay__dataConatiner 
+								span.carousel-div__overlay__data 
+									|Synthetica is a 
+									span.carousel-div__free
+										|FREE
+									|, HTML5/CSS3 template, available for download exclusively via Codrops. 
+				div.carousel-div.second__carousel-div
+					div.carousel-div__overlay
+						h2.carousel-div__overlay__heading Get a head start, with the Synthetica Sketch file.
+						a(href='#').learn-more__link Download Sketch File
+						div.carousel-div__overlay__dataConatiner
+							span.carousel-div__overlay__data Create your landing page in minutes with Synthetica's Sketch style guide. 
+				div.carousel-div.third__carousel-div
+					div.carousel-div__overlay
+						h2.carousel-div__overlay__heading Download Synthetica today, it's free forever.
+						a(href='#').learn-more__link Download Template
+						div.carousel-div__overlay__dataConatiner
+							span.carousel-div__overlay__data Available exclusively from Codrops.
+				div.dotConatiner
+					span.dot.firstSlide
+					span.dot.secondSlide
+					span.dot.thirdSlide
+			div.collectiveMenu 
+				h1.collectiveMenu__heading THE COLLECTIVE
+				div.collectiveMenu__container
+					p.collectiveMenu__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
+					div.collectiveMenu__videoPlayer
+						video.collectiveMenu__video(controls)
+							source(src='images/oceans.mp4',type='video/mp4')
+					p.collectiveMenu__information.collectiveMenu-bottompadding 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa.
+					p.collectiveMenu__information Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
+			div.crewMenu
+				h1.crewMenu__heading THE CREW
+				div.crewMenu__imageConatiner
+					div.crewMenuImages.crewMenu__image__firstCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__secondCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__thirdCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+					div.crewMenuImages.crewMenu__image__fourthCrewMember
+						div.crewMenuImages__overlay
+							h1.crewMenuImages__overlay__heading PETER FINLAN
+							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+				div.crewMenu__progressBarsHolder
+					div.crewMenu__progressBarContainer
+						p.progressBar_title EXPERIENCE DESIGN 
+						p.progressBar__percentage 90%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=90)
+					div.crewMenu__progressBarContainer.crewMenu__progressBarContainer-leftmargin
+						p.progressBar_title INTERACTIVE PROTOTYPING 
+						p.progressBar__percentage 80%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=80)
+					div.crewMenu__progressBarContainer.crewMenu__progressBarContainer-topmargin
+						p.progressBar_title HTML5/CSS3  
+						p.progressBar__percentage 95%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=95)
+					div.crewMenu__progressBarContainer.crewMenu__visualDesignProgressBar-margin
+						p.progressBar_title VISUAL DESIGN
+						p.progressBar__percentage 90%
+						div.progressBar__wrapper
+							div.progressBar(data-percentage=90)
+			div.TimmerdivHolder
+						div.Timmerdiv.awardsdiv
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number(data-number=24) 24
+								p.Timmerdiv__text AWARDS WON
+						div.Timmerdiv.articles
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number(data-number=341) 341
+								p.Timmerdiv__text ARTICLES
+						div.Timmerdiv.freebies
+							img.Timmerdiv__icon(src="images/big-winners-cup-icon.png")
+							div.Timmerdiv__information
+								p.Timmerdiv__number(data-number=43) 43
+								p.Timmerdiv__text FREEBIES
+			div.articlesMenu
+				div.articlesMenu__headerContainer
+					h1.articlesMenu__heading LATEST ARTICLES
+					div.articlesMenu__dropdownDiv
+						h2.articlesMenu__dropdownTitle SORT BY
+						select.articlesMenu__dropdown
+							option(value='Experience Design') Experience Design
+							option(value='Visual Design') Visual Design
+							option(value='UI Patterns') UI Patterns
+							option(value='Product Design') Product Design
+				div.articlesMenu__articlesContainer
+					div.articlesMenu__articlesHolder
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title 8 solid tips when working with front-end developers
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link Product
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 51
+					div.articlesMenu__articlesHolder
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title The 10 best traits of a awesome design leaders
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link Teams
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 42
+					div.articlesMenu__articlesHolder.articleOnTeams
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title How to design well collaboratively with an agile product team
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link Teams
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 58
+					div.articlesMenu__articlesHolder
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title The essentials of modern interaction design (mobile + tablet)
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link UX Design
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 14
+					div.articlesMenu__articlesHolder
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title Overcoming barriers encountered in the pitch process (part 1)
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link Product
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 55
+					div.articlesMenu__articlesHolder.articleOnUXDesign
+						a(href='#').articlesMenu__article__link
+							div.articlesMenu__articleImage
+								div.Image__overlay
+							h1.articlesMenu__article__title 10 things we've learnt about our users (Case Study)
+							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
+						div.articlesMenu__article__footer
+							a(href='#').article__footer__link UX Design
+							p.article__footer__comment
+								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
+								span 20
+				div.articlesMenu__viewMore
+					a(href="#").viewMore__link VIEW MORE
+			div.FreshestFreebiesMenu
+				h1.FreshestFreebiesMenu__heading FRESHEST FREEBIES
+				div.FreshestFreebiesMenu__information
+					section.FreshestFreebiesMenu__leftsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
+					section.FreshestFreebiesMenu__rightsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
+				div.FreshestFreebiesMenu__ImagesConatiner
+					div.FreshestFreebiesMenu__ImageHolder
+						div.Image__overlay
+						div.FreshestFreebiesMenu__Image__overlay
+							div.FreshestFreebiesMenu__likeDiv
+								a(href="#")
+									img.FreshestFreebiesMenu__likeImg(src='images/favorite.png')
+								span.FreshestFreebiesMenu__likeCount 79
+							div.FreshestFreebiesMenu__Image__overlay__data
+								p.Image__overlay__date 03/01/2016
+								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
+								a.Image__overlay__link(href='#') DOWNLOAD
+					div.FreshestFreebiesMenu__ImageHolder
+						div.Image__overlay
+						div.FreshestFreebiesMenu__Image__overlay
+							div.FreshestFreebiesMenu__likeDiv
+								a(href="#")
+									img.FreshestFreebiesMenu__likeImg(src='images/favorite.png')
+								span.FreshestFreebiesMenu__likeCount 94
+							div.FreshestFreebiesMenu__Image__overlay__data
+								p.Image__overlay__date 03/01/2016
+								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
+								a(href='#').Image__overlay__link DOWNLOAD
+					div.FreshestFreebiesMenu__ImageHolder
+						div.Image__overlay
+						div.FreshestFreebiesMenu__Image__overlay
+							div.FreshestFreebiesMenu__likeDiv
+								a(href="#")
+									img.FreshestFreebiesMenu__likeImg(src='images/favorite.png')
+								span.FreshestFreebiesMenu__likeCount 40
+							div.FreshestFreebiesMenu__Image__overlay__data
+								p.Image__overlay__date 03/01/2016
+								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
+								a(href='#').Image__overlay__link DOWNLOAD
+					div.FreshestFreebiesMenu__ImageHolder
+						div.Image__overlay 
+						div.FreshestFreebiesMenu__Image__overlay
+							div.FreshestFreebiesMenu__likeDiv
+								a(href="#")
+									img.FreshestFreebiesMenu__likeImg(src='images/favorite.png')
+								span.FreshestFreebiesMenu__likeCount 84
+							div.FreshestFreebiesMenu__Image__overlay__data
+								p.Image__overlay__date 03/01/2016
+								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
+								a(href='#').Image__overlay__link DOWNLOAD
+				div.FreshestFreebiesMenu__viewMore
+					a(href="#").viewMore__link VIEW MORE
+			div.getStarted
+				h2.getStarted__heading
+					|Get started now. Download Synthetica 
+					a.free__link(href='#') FREE
+					|, via Codrops.
+				a(href='#').getStarted__link GET STARTED
+			footer.footer
+				div.footer__dataConatiner
+					img.footerLogo(src='images/synthetica-logo.png')
+					h2.footer__data 
+						|A free HTML5/CSS3 template, exclusively for 
+						span.codrops Codrops
+				div.footer__linkConatiner
+					div.footer__left__linkConatiner
+						a(href='#').footer__link.collective__link The Collective
+						a(href='#').footer__link.crew__link The Crew
+						a(href='#').footer__link.articales__link Articles
+						a(href='#').footer__link.freebies__link Freebies
+						a(href='#').footer__link Subscribe
+					div.footer__right__linkConatiner
+						a(href='#').footer__link Licence
+						a(href='#').footer__link.footer__link__share Share
+					h1.footer__information 
+						|A free website template created exclusively for 
+						a(href='#').Codrops__link Codrops
+		script(src='js/script1.js')
+			

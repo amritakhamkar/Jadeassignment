@@ -1,7 +1,23 @@
+$Link_color:#7AE2DE;
+$bottom_border:solid 2px $Link_color;
+
+@mixin lineAfterMenu() {
+
+    &:after{
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin-top: 15px;
+        content: '';
+        background-color: $Link_color;
+    }
+}
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
 }
+
+/*--------------------------------------------header section---------------------------------------------------------*/
 .header{
 	width: 100%;
     clear: both;
@@ -10,7 +26,7 @@ body{
 }
 .header__logo{
 	width: 26%;
-    border-bottom: solid 5px #7AE2DE;
+    border-bottom: solid 5px $Link_color;
     background-color: #414A52;
     padding: 30px 50px 30px 50px;
     box-sizing: border-box;
@@ -36,8 +52,8 @@ body{
     padding: 8px 0;
 }
 .header__menu__link:hover{
-    border-bottom: 2px solid #7AE2DE;
-    color: #7AE2DE;
+    border-bottom:$bottom_border;
+    color: $Link_color;
     transition:0.2s;
 }
 .header__subscribe{
@@ -68,7 +84,7 @@ body{
     margin: 0 0 0 15px;
 }
 .header__subscribe-menu__link{
-    color: #7AE2DE;
+    color: $Link_color;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -76,8 +92,8 @@ body{
     letter-spacing: 1px;
 }
 .header__subscribe-menu__link:hover{
-    border-bottom: 2px solid #7AE2DE;
-    color: #7AE2DE;
+    border-bottom: $bottom_border;
+    color: $Link_color;
     transition:0.2s;
   }
 .header__search{
@@ -92,19 +108,21 @@ body{
 }
 .header__search__input{
     border: none;
-    border-bottom: solid 2px #7AE2DE;
+    border-bottom: $bottom_border;
     background-color: #414A52;
     font-size: 14px;
     padding: 0 0 7px 0;
     width: 280px;
     transition:0.3s;
     outline: none;
+    color: #fff;
 }
 .header__search__closebtn{
     width: 30px;
     position: absolute;
     right: 20px;
 }
+/*----------------------------------------------carousel------------------------------------------------------------*/
 .carousel-divs{
     padding: 10px;
     position: relative;
@@ -157,6 +175,8 @@ body{
     border-top: solid 1px rgba(255,255,255,0.25);
 }
 .carousel-div__free{
+    font-style: italic;
+    font-weight: bold;
     color: #fff;
 }
 .carousel-div__overlay__dataConatiner{
@@ -171,7 +191,7 @@ body{
     color: #fff;
     font-size: 15px;
     font-weight: 300;
-    background-color: #7AE2DE;
+    background-color: $Link_color;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -185,21 +205,27 @@ body{
     background: url('../images/hero-bg-03.jpg');
 
 }
+/*--------------------------------------------collective Menu---------------------------------------------------------*/
+
+.menu__heading{
+    color: #4c4a52;
+    font-size: 15px;
+    font-family:Raleway,Verdana,Arial,sans-serif;
+    padding: 0 0 0 50px;
+}
+
 .collectiveMenu{
     padding: 130px 100px 80px 130px;
     clear: both;
     display: inline-block;
 }
 .collectiveMenu__heading {
+    @extend .menu__heading;
     float: left;
     padding: 6px 0 0 0;
+    @include lineAfterMenu();
 }
-.Menu__heading{
-    color: #4c4a52;
-    font-size: 15px;
-    font-family:Raleway,Verdana,Arial,sans-serif;
-    padding: 0 0 0 50px;
-}
+
 .collectiveMenu__container{
     float: left;  
     width: 87%;
@@ -223,21 +249,17 @@ body{
     background-color: #000;
 
 }
+/*--------------------------------------------Crew Menu---------------------------------------------------------*/
 .crewMenu{
     background-color: #F4F6F9;
     padding:130px 70px; 
 }
 .crewMenu__heading{
+    @extend .menu__heading;
     padding: 0 0 50px 50px;
+    @include lineAfterMenu();
 }
-.Menu__heading:after {
-    display: block;
-    width: 30px;
-    height: 2px;
-    margin-top: 15px;
-    content: '';
-    background-color: #7AE2DE;
-}
+
 .crewMenu__imageConatiner{
     width: 100%;
     clear: both;
@@ -337,7 +359,7 @@ body{
 .progressBar{
     height: 10px;
     width: 0;
-    background-color: #7AE2DE;
+    background-color: $Link_color;
 }
 .TimmerdivHolder{
     background: url(../images/stats-bg.jpg) no-repeat;
@@ -378,6 +400,7 @@ body{
     font-size: 17px;
     line-height: 27px;
 }
+/*--------------------------------------------Articles Menu---------------------------------------------------------*/
 .articlesMenu {
     background-color: #F4F6F9;
     padding: 130px 70px;
@@ -389,8 +412,10 @@ body{
     padding: 0 0 50px 0;
 }
 .articlesMenu__heading{
+    @extend .menu__heading;
     float: left;
     margin: 7px 0 0 0;
+    @include lineAfterMenu();
 }
 .articlesMenu__dropdownDiv{
    float: right;
@@ -411,7 +436,7 @@ body{
     padding: 0 0 9px 0;
     margin: 0 0 0 20px;
     display: inline-block;
-    border-bottom: 2px solid #7AE2DE;
+    border-bottom: $bottom_border;
     background: none;
     outline: none;
 }
@@ -473,7 +498,7 @@ body{
     width: 100%;
 }
 .article__footer__link{
-    color: #7AE2DE;
+    color: $Link_color;
     font-size: 15px;
     text-decoration: none;
     float: left;
@@ -495,21 +520,24 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
-    color: #7AE2DE;
-    border: 2px solid #7AE2DE;
+    color: $Link_color;
+    border: 2px solid $Link_color;
     padding: 15px;
     letter-spacing: 1px;
 }
 .viewMore__link:hover{
     color: #fff;
-    background: #7AE2DE;
+    background: $Link_color;
     transition:0.3s;
 }
+/*--------------------------------------------Freebies Menu---------------------------------------------------------*/
 .FreshestFreebiesMenu{
      padding:130px 0px; 
 }
 .FreshestFreebiesMenu__heading{
+    @extend .menu__heading;
     padding: 0 0 0 130px; 
+     @include lineAfterMenu();
 }
 .FreshestFreebiesMenu__information{
     padding: 70px 70px;
@@ -595,13 +623,13 @@ body{
     margin: 30px 0 0 0;
     text-decoration: none;
     padding: 13px;
-    border: 2px solid #7AE2DE;
-    color: #7AE2DE;
+    border: 2px solid $Link_color;
+    color: $Link_color;
     font-size: 13px;
     transition:0.3s;
 }
 .Image__overlay__link:hover{
-    background-color:#7AE2DE;
+    background-color:$Link_color;
     color: #fff;
 }
 .FreshestFreebiesMenu__viewMore{
@@ -610,7 +638,7 @@ body{
 }
 .getStarted{
     padding: 100px 0;
-    background-color: #7AE2DE;
+    background-color: $Link_color;
     text-align: center;
     color: #fff;
 }
@@ -634,9 +662,11 @@ body{
 }
 .getStarted__link:hover{
     background: #fff;
-    color: #7AE2DE;
+    color: $Link_color;
     transition:0.3s;
 }
+/*--------------------------------------------Footer Section ---------------------------------------------------------*/
+
 .footer{
     padding: 130px 70px;
     background-color: #414A52;
@@ -650,6 +680,10 @@ body{
 .footer__dataConatiner{
     padding: 0 0 60px 12px;
     
+}
+.codrops{
+    font-weight: bold;
+    font-style: italic;
 }
 .footer__linkConatiner{
     border-top: 1px solid #5d656c;
@@ -678,7 +712,7 @@ body{
     margin: 0;
 }
 .footer__link:hover{
-    color: #7AE2DE;
+    color: $Link_color;
 }
 .footer__information{
     display: inline-block;

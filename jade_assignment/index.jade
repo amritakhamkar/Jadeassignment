@@ -4,6 +4,7 @@ html
 		title jade assignment template
 		link(rel="stylesheet",href="css/reset.css")
 		link(rel="stylesheet",href="css/style.css")
+		link(rel="shortcut icon" href="images/shortIcon.png")
 		script(src='http://code.jquery.com/jquery.min.js', type='text/javascript')
 	body
 		div.container
@@ -14,36 +15,36 @@ html
 				nav.header__menus
 					ul
 						li.header__menu 
-							a.header__menu__link.collective__link(href="#") THE COLLECTIVE
+							a(href="#").header__menu__link.collective__link THE COLLECTIVE
 						li.header__menu 
-							a.header__menu__link.crew__link(href="#") THE CREW
+							a(href="#").header__menu__link.crew__link THE CREW
 						li.header__menu 
-							a.header__menu__link.articales__link(href="#") ARTICALS
+							a(href="#").header__menu__link.articales__link ARTICALS
 						li.header__menu.header__menu__freebies
-							a.header__menu__link.freebies__link(href="#") FREEBIES
+							a(href="#").header__menu__link.freebies__link FREEBIES
 				div.header__subscribe
 					ul.header__subscribe__list
 						li.header__subscribe-menu
-							a.header__subscribe-menu__link.subscribe__link(href="#") SUBSCRIBE
+							a(href="#").header__subscribe-menu__link.subscribe__link SUBSCRIBE
 						li.header__subscribe-menu__search
-							a.header__subscribe-menu__search__link(href="#")
-								img.search-img(src="images/search.png" id="searchBtn")
+							a(href="#").header__subscribe-menu__search__link
+								img.search-img.toggleBtn(src="images/search.png" id="searchBtn")
 				div.header__search
 					input.header__search__input(type="text" placeholder="Start typing then hit enter to search")
 					a(href="#")
-						img.header__search__closebtn(src="images/close-button.png" id="closeBtn")
+						img.header__search__closebtn.toggleBtn(src="images/close-button.png" id="closeBtn")
 			div.carousel-divs 
 				div.carousel-div.first__carousel-div
 					div.carousel-div__overlay
-						h2.carousel-div__overlay__heading Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.
-						a(href='#').learn-more__link LEARN MORE
-						div.carousel-div__overlay__dataConatiner 
-							span.carousel-div__overlay__data 
-								|Synthetica is a 
-								b
-									i.carousel-div__free
+						div.carousel-div__overlay__Conatiner
+							h2.carousel-div__overlay__heading Introducing, Synthetica. A blissful HTML5/CSS3 Template, free forever.
+							a(href='#').learn-more__link LEARN MORE
+							div.carousel-div__overlay__dataConatiner 
+								span.carousel-div__overlay__data 
+									|Synthetica is a 
+									span.carousel-div__free
 										|FREE
-								|, HTML5/CSS3 template, available for download exclusively via Codrops. 
+									|, HTML5/CSS3 template, available for download exclusively via Codrops. 
 				div.carousel-div.second__carousel-div
 					div.carousel-div__overlay
 						h2.carousel-div__overlay__heading Get a head start, with the Synthetica Sketch file.
@@ -61,7 +62,7 @@ html
 					span.dot(onclick='currentSlide(2)')
 					span.dot(onclick='currentSlide(3)')
 			div.collectiveMenu 
-				h1.collectiveMenu__heading.Menu__heading THE COLLECTIVE
+				h1.collectiveMenu__heading.menu__heading THE COLLECTIVE
 				div.collectiveMenu__container
 					p.collectiveMenu__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa. Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
 					div.collectiveMenu__videoPlayer
@@ -70,32 +71,32 @@ html
 					p.collectiveMenu__information.collectiveMenu-bottompadding 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress, banjo normcore trust fund hella. Kinfolk gluten-free lo-fi quinoa.
 					p.collectiveMenu__information Pabst kitsch ennui hoodie meggings banjo. Schlitz tacos kitsch godard before they sold out. Kale chips chillwave kickstarter photo booth cronut cold-pressed. Banjo fixie umami kombucha affogato gluten-free authentic slow-carb hashtag, hammock pour-over chambray viral VHS normcore.
 			div.crewMenu
-				h1.crewMenu__heading.Menu__heading THE CREW
+				h1.crewMenu__heading.menu__heading THE CREW
 				div.crewMenu__imageConatiner
 					div.crewMenuImages.crewMenu__image__firstCrewMember
 						div.crewMenuImages__overlay
 							h1.crewMenuImages__overlay__heading PETER FINLAN
 							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
 					div.crewMenuImages.crewMenu__image__secondCrewMember
 						div.crewMenuImages__overlay
 							h1.crewMenuImages__overlay__heading PETER FINLAN
 							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
 					div.crewMenuImages.crewMenu__image__thirdCrewMember
 						div.crewMenuImages__overlay
 							h1.crewMenuImages__overlay__heading PETER FINLAN
 							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
 					div.crewMenuImages.crewMenu__image__fourthCrewMember
 						div.crewMenuImages__overlay
 							h1.crewMenuImages__overlay__heading PETER FINLAN
 							p.crewMenuImages__overlay__information 8-bit aesthetic kitsch 90's humblebrag. Gastropub tacos hoodie letterpress.
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink(href="#")
-							a.crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
+							a(href="https://twitter.com/" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__twiterlink
+							a(href="http://facebook.com" target="_blank").crewMenuImages__overlay__link.crewMenuImages__overlay__facebooklink
 				div.crewMenu__progressBarsHolder
 					div.crewMenu__progressBarContainer
 						p.progressBar_title EXPERIENCE DESIGN 
@@ -135,14 +136,14 @@ html
 								p.Timmerdiv__text FREEBIES
 			div.articlesMenu
 				div.articlesMenu__headerContainer
-					h1.Menu__heading.articlesMenu__heading LATEST ARTICLES
+					h1.menu__heading.articlesMenu__heading LATEST ARTICLES
 					div.articlesMenu__dropdownDiv
 						h2.articlesMenu__dropdownTitle SORT BY
 						select.articlesMenu__dropdown
 							option(value='Experience Design') Experience Design
 							option(value='Visual Design') Visual Design
 							option(value='UI Patterns') UI Patterns
-							option(value='UI Patterns') Product Design
+							option(value='Product Design') Product Design
 				div.articlesMenu__articlesContainer
 					div.articlesMenu__articlesHolder
 						a(href='#').articlesMenu__article__link
@@ -151,7 +152,7 @@ html
 							h1.articlesMenu__article__title 8 solid tips when working with front-end developers
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') Product
+							a(href='#').article__footer__link Product
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 51
@@ -162,7 +163,7 @@ html
 							h1.articlesMenu__article__title The 10 best traits of a awesome design leaders
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') Teams
+							a(href='#').article__footer__link Teams
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 42
@@ -173,7 +174,7 @@ html
 							h1.articlesMenu__article__title How to design well collaboratively with an agile product team
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') Teams
+							a(href='#').article__footer__link Teams
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 58
@@ -184,7 +185,7 @@ html
 							h1.articlesMenu__article__title The essentials of modern interaction design (mobile + tablet)
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') UX Design
+							a(href='#').article__footer__link UX Design
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 14
@@ -195,7 +196,7 @@ html
 							h1.articlesMenu__article__title Overcoming barriers encountered in the pitch process (part 1)
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') Product
+							a(href='#').article__footer__link Product
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 55
@@ -206,14 +207,14 @@ html
 							h1.articlesMenu__article__title 10 things we've learnt about our users (Case Study)
 							p.articlesMenu__article__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus...
 						div.articlesMenu__article__footer
-							a.article__footer__link(href='#') UX Design
+							a(href='#').article__footer__link UX Design
 							p.article__footer__comment
 								img.article__footer__CommentImage(src="images/Speach-Bubble13-512.png")
 								span 20
 				div.articlesMenu__viewMore
 					a(href="#").viewMore__link VIEW MORE
 			div.FreshestFreebiesMenu
-				h1.Menu__heading.FreshestFreebiesMenu__heading FRESHEST FREEBIES
+				h1.menu__heading.FreshestFreebiesMenu__heading FRESHEST FREEBIES
 				div.FreshestFreebiesMenu__information
 					section.FreshestFreebiesMenu__leftsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
 					section.FreshestFreebiesMenu__rightsection__information A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit.
@@ -239,7 +240,7 @@ html
 							div.FreshestFreebiesMenu__Image__overlay__data
 								p.Image__overlay__date 03/01/2016
 								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
-								a.Image__overlay__link(href='#') DOWNLOAD
+								a(href='#').Image__overlay__link DOWNLOAD
 					div.FreshestFreebiesMenu__ImageHolder
 						div.Image__overlay
 						div.FreshestFreebiesMenu__Image__overlay
@@ -250,7 +251,7 @@ html
 							div.FreshestFreebiesMenu__Image__overlay__data
 								p.Image__overlay__date 03/01/2016
 								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
-								a.Image__overlay__link(href='#') DOWNLOAD
+								a(href='#').Image__overlay__link DOWNLOAD
 					div.FreshestFreebiesMenu__ImageHolder
 						div.Image__overlay 
 						div.FreshestFreebiesMenu__Image__overlay
@@ -261,7 +262,7 @@ html
 							div.FreshestFreebiesMenu__Image__overlay__data
 								p.Image__overlay__date 03/01/2016
 								h2.Image__overlay__heading SEDNA HTML CSS TEMPLATE
-								a.Image__overlay__link(href='#') DOWNLOAD
+								a(href='#').Image__overlay__link DOWNLOAD
 				div.FreshestFreebiesMenu__viewMore
 					a(href="#").viewMore__link VIEW MORE
 			div.getStarted
@@ -273,9 +274,9 @@ html
 			footer.footer
 				div.footer__dataConatiner
 					img.footerLogo(src='images/synthetica-logo.png')
-					h2.footer__data A free HTML5/CSS3 template, exclusively for 
-						b
-							i Codrops
+					h2.footer__data 
+						|A free HTML5/CSS3 template, exclusively for 
+						span.codrops Codrops
 				div.footer__linkConatiner
 					div.footer__left__linkConatiner
 						a(href='#').footer__link.collective__link The Collective
@@ -288,6 +289,6 @@ html
 						a(href='#').footer__link.footer__link__share Share
 					h1.footer__information 
 						|A free website template created exclusively for 
-						a.Codrops__link(href='#') Codrops
+						a(href='#').Codrops__link Codrops
 		script(src='js/script.js')
 			
