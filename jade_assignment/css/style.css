@@ -93,6 +93,7 @@ body{
     box-sizing: border-box;
 }
 .header__search__input{
+    color: #fff;
     border: none;
     border-bottom: solid 2px #7AE2DE;
     background-color: #414A52;
