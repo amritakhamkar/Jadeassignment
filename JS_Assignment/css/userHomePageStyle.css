@@ -1,0 +1,261 @@
+.ImageContainer{
+	background: url(../Images/bshfOAr.jpg) 100% 100% no-repeat;
+	padding: 10px 10px 10px 10px;
+	min-height: 500px;
+}
+.Gallery{
+	background: none;
+}
+.Title{
+	font-size: 22px;
+	color: #fff;
+	margin: 15px 0 15px 0;
+}
+.heading{
+	font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    /* color: #B02; */
+    color: #ab1;
+}
+.Usernameheading{
+    margin: 30px 10px 0px 0px;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #8BC34A;
+}
+.Usernameheading:hover{
+   color:#E91E63
+}
+#userNameSpan{
+    text-transform: capitalize;
+}
+.ImageContainer h2{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+#ImageForm{
+	padding: 20px;
+	background: rgba(255,255,255,0.2);
+}
+#ImageForm textarea{
+	margin: 20px 0 0 0;
+}
+#upload{
+	margin: 15px 0 0 0;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	border-radius: 6px;
+    background: #ee8942;
+}
+.errorMsg{
+	display: none;
+	color: #DC381F;
+}
+.ImagesHolder{
+	padding: 20px;
+}
+.ImagesHolder p{
+	margin:10px 0;
+} 
+.image{
+	width: 100%;
+	height: 150px;
+}
+.imageOption{
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin: 3px 15px 0 0;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #20b2aa;
+    border-radius: 5px;
+    opacity: 0.8;
+    width: 100%;
+}
+.imageBox{
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 0 15px 0;
+}
+
+.uploadbtn{
+	margin: 10px 0 0 180px;
+    padding: 8px;
+    text-decoration: none;
+    background: #ee8942;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 7px;
+    display: inline-block;
+}
+.image_option_Div{
+    padding: 7px;
+    width: 26%;
+    float: left;
+    margin: 0 0 5px 5px;
+    background: #f0f0f0;
+}
+.photo{
+	width: 100%;
+	height: 75px;
+}
+.hideElement{
+	display: none;
+}
+.photoHolder{
+	padding: 20px 8px;
+	clear: both;
+	display:inline-table;
+    min-width: 98%;
+}
+.Background{
+	display: none;
+	position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px;
+    box-sizing: border-box;
+}
+.LargeImageContainer{
+	width: 100%;
+    height: 200px;
+	margin-top: 200px;
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+}
+.largeImage{
+	width: 82%;
+    height: 100%;
+    margin: 0 0 0 21px;
+}
+.close {
+    position: absolute;
+    right: 17px;
+    top: 210px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover{
+	color: red;
+	cursor: pointer;
+}
+.forwardBtn{
+	height: 52px;
+    width: 39px;
+    top: 289px;
+    position: absolute;
+    right: 17px;
+}
+.BackwardBtn{
+	height: 67px;
+    width: 52px;
+    top: 285px;
+    position: absolute;
+    left: 10px;
+}
+.savebutton{
+    margin: 10px 0 0 0;
+    width: 21%;
+    height: 25px;
+    background-color: #20b2aa;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+}
+.descriptionTextArea{
+    width: 98%;
+}
+.winnerName{
+    font-size: 40px;
+    color: #948011;
+    text-transform: capitalize;
+    font-family: serif;
+}
+.downloadImg{
+    height: 20px;
+    width: 20px;
+}
+.editDeleteoption{
+    width: 30%;
+}
+@media only screen and (min-width: 768px) {
+
+.Gallery{
+    min-height: 606px;
+    box-sizing: border-box;
+} 
+.image {
+    height: 200px;
+}
+.imageBox{
+    width: 40%;
+    margin: 0 0 15px 15px;
+    display: inline-block;
+}
+.heading {
+    font-size: 42px;
+}
+.image_option_Div{
+    width: 14%;
+}
+.LargeImageContainer {
+    width: 70%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 302px;
+    padding: 80px;
+}
+.largeImage {
+    width: 99%;
+    margin: 0;
+}
+.close {
+    right: 99px;
+    top: 60px;
+    font-size: 60px;
+}
+.forwardBtn {
+    height: 100px;
+    width: 60px;
+    top: 273px;
+    right: 100px;
+}
+.BackwardBtn {
+    height: 130px;
+    width: 80px;
+    top: 255px;
+    left: 316px;
+}
+.UploadFormContainer{
+    min-height: 606px;
+    box-sizing: border-box;
+}
+#ImageForm {
+    width: 45%;
+    margin: 30px 0 0 275px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.Title {
+    text-align: center;
+    font-size: 30px;
+}
+.savebutton{
+    width: 30%;
+}
+}

@@ -1,0 +1,85 @@
+.menulist{
+	background-color:#7C626F;
+}
+.FormContainer{
+	background:url(../Images/bshfOAr.jpg) 100% 100% no-repeat;
+	padding:30px;
+}
+.FormContainer p{
+	font-size: 24px;
+	color: #fff;
+	padding: 10px 0 10px 0;
+}
+.FormContainer form{
+	box-sizing: border-box;
+	padding:20px; 
+	background:rgba(255,255,255,0.2);
+}
+.FormContainer h4{
+	padding: 15px 0;
+	color: #080635;
+}
+.input{
+	height: 30px;
+    width: 93%;
+    padding:0 0 0 10px;
+    margin: 15px 0 0 0;
+    font-style: italic;
+}
+.submitBtn{
+	margin: 30px 0 0 0;
+    width: 50%;
+    padding: 10px;
+    background-color: #778899;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.registerbtn{
+	width: auto;
+}
+.errorMsg{
+	display: none;
+	color: #DC381F;
+}
+.FormContainer form h1{
+	font-style: italic;
+	color: #080635;
+	font-size: 18px;
+}
+.FormContainer form a{
+	display: inline-block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 50%;
+    margin: 10px 0 0 0px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8942;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 768px) {
+	.menulist{
+		background: #000;
+	}
+	.FormContainer{
+		height: 606px;
+    	box-sizing: border-box;
+	}
+	.FormContainer form{
+		width: 40%;
+		margin: 0 0 0 280px;
+	}
+	.input{
+		width: 96%;
+	}
+	.FormContainer p{
+		font-size: 36px;
+		text-align: center;
+	}
+	.FormContainer h4{
+		text-align: center;
+	}
+
+}

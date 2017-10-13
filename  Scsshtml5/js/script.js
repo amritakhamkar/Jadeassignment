@@ -1,7 +1,8 @@
 counter=0;
+TimerCounter=0;
 $(document).ready(function () {
     $(window).scroll(function () {
-        // get the element that you want check scrolling on it
+        // function for progress Bar
         var off = $(".crewMenu__progressBarsHolder").offset().top; 
         var top = $(window).scrollTop() + $(window).height();
         if (off <= top && counter==0) {
@@ -24,13 +25,8 @@ $(document).ready(function () {
             });
           });
         }
-    });
-});
 
-TimerCounter=0;
-$(document).ready(function () {
-    $(window).scroll(function () {
-        // get the element that you want check scrolling on it
+        //function for counter
         var off = $(".TimmerdivHolder").offset().top; 
         var top = $(window).scrollTop() + $(window).height();
         if (off <= top && TimerCounter==0) {
@@ -53,15 +49,20 @@ $(document).ready(function () {
               });
             }); 
         }
+
+
+
     });
 });
 
 
 
+//function for hide and display search div
 $('.toggleBtn').click(function(){
   $('.header__search').toggle();
 })
 
+//function for reset width of input search 
 $('#closeBtn').click(function(){
   $(".header__search__input").css('width','280px');
 })
@@ -94,6 +95,7 @@ $(".subscribe__link").click(function() {
     scrollingUp(".getStarted");
 });
 
+//function for increase width of input when it is clicked
 $(".header__search__input").focus(function(){
 
   $(".header__search__input").css('width','330px');
@@ -102,10 +104,6 @@ $(".header__search__input").focus(function(){
 
 var slideIndex = 1;
 showSlides(slideIndex);
-/*
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}*/
 
 function currentSlide(n) {
   showSlides(slideIndex = n);

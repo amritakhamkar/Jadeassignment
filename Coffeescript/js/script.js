@@ -4,6 +4,8 @@
 
   counter = 0;
 
+  TimerCounter = 0;
+
   $(document).ready(function() {
     return $(window).scroll(function() {
       var offSet, top;
@@ -11,7 +13,7 @@
       offSet = $('.crewMenu__progressBarsHolder').offset().top;
       top = $(window).scrollTop() + $(window).height();
       if (offSet <= top && counter === 0) {
-        return $('.progressBar').each(function() {
+        $('.progressBar').each(function() {
           var percentage, progress;
           progress = $(this);
           percentage = Math.ceil($(this).attr('data-percentage'));
@@ -36,23 +38,15 @@
           });
         });
       }
-    });
-  });
-
-  TimerCounter = 0;
-
-  $(document).ready(function() {
-    $(window).scroll(function() {
-      var offSet, top;
       // get the element that you want check scrolling on it
       offSet = $('.TimmerdivHolder').offset().top;
       top = $(window).scrollTop() + $(window).height();
       if (offSet <= top && TimerCounter === 0) {
-        $('.Timmerdiv__number').each(function() {
+        return $('.Timmerdiv__number').each(function() {
           var percentage, progress;
           progress = $(this);
           percentage = Math.ceil($(this).attr('data-number'));
-          $({
+          return $({
             countNum: 0
           }).animate({
             countNum: percentage
@@ -68,7 +62,7 @@
               } else {
                 pct = Math.floor(this.countNum + 1);
               }
-              progress.text(pct);
+              return progress.text(pct);
             }
           });
         });

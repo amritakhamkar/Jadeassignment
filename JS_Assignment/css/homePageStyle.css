@@ -1,0 +1,26 @@
+.content p{
+	padding: 20px 10px 20px 10px;
+	font-style: italic;
+}
+.carousel_div{
+	width: 100%;
+}
+.carousel_divs{
+	display:none;
+ 	width: 100%;
+ 	height:250px;
+ 	position: relative;
+ 	clear: both;
+}
+.carousel_imgs{
+	width: 100%;
+ 	height: 100%;
+}
+@media only screen and (min-width: 768px) {
+body{
+	
+}
+
+
+
+}

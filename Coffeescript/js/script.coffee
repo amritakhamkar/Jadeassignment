@@ -1,6 +1,5 @@
-
-
 counter = 0
+TimerCounter = 0
 $(document).ready ->
   $(window).scroll ->
     # get the element that you want check scrolling on it
@@ -22,11 +21,6 @@ $(document).ready ->
               pct = Math.floor(@countNum + 1)
             progress.css 'width', pct + '%'
 
-
-
-TimerCounter = 0
-$(document).ready ->
-  $(window).scroll ->
     # get the element that you want check scrolling on it
     offSet = $('.TimmerdivHolder').offset().top
     top = $(window).scrollTop() + $(window).height()
@@ -45,11 +39,6 @@ $(document).ready ->
             else
               pct = Math.floor(@countNum + 1)
             progress.text pct
-            return
-        return
-    return
-  return
-
 
 $('.toggleBtn').click ->
   $('.header__search').toggle()
