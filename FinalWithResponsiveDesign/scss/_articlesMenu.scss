@@ -1,0 +1,149 @@
+.articlesMenu {
+    background-color: #F4F6F9;
+    padding:80px 15px; 
+    @include tablet{
+        padding:125px 25px; 
+    }
+    @include desktop{
+        padding: 130px 70px;
+    }
+    .articlesMenu__headerContainer{
+        padding: 0 0 50px 0;
+        clear: both;
+        display: inline-block;
+        width:100%;
+        .articlesMenu__heading{
+            @include lineAfterMenu();
+            margin: 0 0 65px 0;
+            padding:0;
+            @include tablet{
+                float:left;
+            }
+            @include desktop{
+                padding:0 0 0 50px;
+                float: left;
+                margin: 7px 0 0 0;
+            }
+            
+        }
+        .articlesMenu__dropdownDiv{
+            @include tablet{
+                float:right;
+            }
+            @include desktop{
+                float: right;
+            }
+            .articlesMenu__dropdownTitle{
+                font-size: 13px;
+                color: #414A52;
+                @include tablet{
+                    float: left;
+                    margin: 2px 0 0 0;
+                }
+                @include desktop{
+                    padding: 0 0 0 560px;
+                    float: left;
+                    margin: 2px 0 0 0;
+                }
+            }
+            .articlesMenu__dropdown{
+                border: none;
+                font-size: 13px;
+                color:rgba(65,74,82,0.5);
+                border-bottom: $bottom_border;
+                background: none;
+                outline: none;
+                width:100%;
+                margin:20px 0;
+                padding: 0 0 9px 0;
+                @include desktop{
+                    float: right;
+                    width: 300px;
+                    margin: 0 0 0 20px;
+                    display: inline-block;
+                    
+                }
+                @include tablet{
+                    float: right;
+                    width: 300px;
+                    margin: 0 0 0 20px;
+                    display: inline-block;
+                    
+                }
+            }
+        }
+    }
+    .articlesMenu__articlesContainer{
+        width: 100%;
+        clear: both;
+        display: inline-block;
+        .articlesMenu__articlesHolder{
+                width: 100%;
+                 margin: 0 0 50px 0;
+            @include desktop{
+                width: 31.5%;
+                float: left;
+                margin: 0 30px 50px 0;
+            }
+            .articlesMenu__article__link{
+                text-decoration: none;
+                color: #414A52;
+                border-bottom: solid 1px #E5E7E9;
+                display: inline-block;
+                .articlesMenu__articleImage{
+                    background: url(../images/article-01.jpg) no-repeat;
+                    background-size: cover;
+                    height: 225px;
+                    .Image__overlay:hover{
+                        background:rgba(65,74,82,0.8);
+                        transition:0.4s;
+                    }
+                }
+                .articlesMenu__article__title{
+                    font-size: 20px;
+                    line-height: 30px;
+                    padding: 12px 0;
+                    font-weight: 500;
+                    font-family: FontAwesome;
+                }
+                .articlesMenu__article__information{
+                    font-size: 16px;
+                    line-height: 27px;
+                    padding-bottom: 15px;
+                    color: #414A52;
+                }
+            }
+            .articlesMenu__article__footer{
+                padding: 10px 0 0 0;
+                clear: both;
+                display: inline-block;
+                width: 100%;
+                .article__footer__link{
+                    color: $Link_color;
+                    font-size: 15px;
+                    text-decoration: none;
+                    float: left;
+                }
+                .article__footer__comment{
+                    float: right;
+                    color: #414A52;
+                    font-size: 13px;
+                    .article__footer__CommentImage{
+                        width: 12px;
+                        margin: 0 3px 0 0;
+                    }
+                }
+            }           
+        }
+        .articleOnTeams{
+            margin: 0 0 50px 0;
+        }
+        .articleOnUXDesign{
+            margin: 0 0 50px 0;
+        }
+    }
+    .articlesMenu__viewMore{
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+}

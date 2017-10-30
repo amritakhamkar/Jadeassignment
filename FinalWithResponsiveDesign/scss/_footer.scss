@@ -1,0 +1,98 @@
+.footer{
+    background-color: #414A52;
+    padding:80px 0;
+    @include tablet{
+        padding:125px 0;
+    }
+    @include desktop{
+        padding: 130px 70px;
+    }
+    .footer__dataConatiner{
+        padding: 0 15px 60px 15px;
+        @include tablet{
+            padding:0 20px 60px 20px;
+        }
+        @include desktop{
+            padding: 0 0 60px 12px;
+        }
+        .footer__data{
+            margin: 12px 0 0 0;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 200;
+            line-height:27px;
+            .codrops{
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+    }
+    .footer__linkConatiner{
+        border-top: 1px solid #5d656c;
+        padding: 40px 15px 0 15px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        clear: both;
+        display: inline-block;
+        width: 100%;
+        box-sizing:border-box;
+        @include tablet{
+            padding:40px 20px 0 20px;
+        }
+        @include desktop{
+           padding: 40px 12px 0 12px; 
+        }
+        .footer__link{
+            text-decoration: none;
+            display: block;
+            margin: 0 60px 25px 0;
+            color: #fff;
+            padding: 0px 0 15px 0;
+            border-bottom: 1px dashed rgba(255,255,255,0.25);
+            width: 100%;
+            @include tablet{
+                margin: 0 60px 40px 0;
+            }
+            @include desktop{
+                display: inline-block;
+                margin: 0 60px 0 0;
+                border:none;
+                width:initial;
+            }
+        }
+        .footer__link:hover{
+            color: $Link_color;
+        }
+        .footer__left__linkConatiner{
+            @include desktop{
+                float: left;
+            }
+        }
+        .footer__right__linkConatiner{
+            @include desktop{
+                float: right;
+            }
+
+            .footer__link__share{
+                margin: 0;
+            }
+        }
+        .footer__information{
+            display: inline-block;
+            margin: 40px 0 0 0;
+            font-size: 15px;
+            color: #7a8781;
+            font-weight: 200;
+            line-height:27px;
+            .Codrops__link{
+                display:block;
+                text-decoration: none;
+                color: #fff;
+                @include desktop{
+                    display:inline-block;
+                }
+            }
+        }
+    }
+}

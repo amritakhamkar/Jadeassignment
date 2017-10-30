@@ -1,0 +1,121 @@
+.carousel-divs{
+	padding:10px;
+	position:relative;
+	.carousel-div{
+		display:none;
+		position:relative;
+		background-position: center;
+    	background-size: cover;
+	    height: 640px;
+	    position: relative;
+	    @include desktop{
+	    	height:555px;
+	    }
+	    @include tablet{
+	    	height:901px;
+	    }
+	    .carousel-div__overlay{
+	    	position: absolute;
+	      	width: 100%;
+	      	height: 100%;
+	      	text-align: center;
+	     	padding: 80px 0;
+	      	box-sizing: border-box; 
+	      	@include desktop{
+	      		padding: 125px;
+	      	}
+	      	@include tablet{
+	      		padding: 230px 0;
+	      	}
+	      	.carousel-div__overlay__heading{
+	      		font-size: 30px;
+		        color: #fff;
+		        font-weight: 100;
+		        line-height: 40px;
+		        padding:0 30px;
+		        @include desktop{
+		        	font-size: 45px;
+		        	line-height: 60px;
+		        	padding:0;
+		        }
+		        @include tablet{
+		        	font-size: 45px;
+				    line-height: 68px;
+		        }
+	      	}
+	      	.learn-more__link {
+		        text-decoration: none;
+		        display: inline-block;
+		        padding: 17px;
+		        margin: 50px 0 50px 0;
+		        color: #fff;
+		        font-size: 15px;
+		        font-weight: 300;
+		        background-color: #7AE2DE;
+		        letter-spacing: 1px;
+		        text-transform: uppercase;
+		    }
+		    .carousel-div__overlay__dataConatiner {
+		        width: 100%;
+		        margin: 0 auto;
+		        @include desktop{
+		        	width: 74%;
+		        }
+		        .carousel-div__overlay__data {
+    				line-height: 27px;
+			        display: block;
+			        padding: 30px 20px 0 20px;
+			        color: rgba(255, 255, 255, 0.8);
+			        font-size: 15px;
+			        font-weight: 200;
+			        border-top: solid 1px rgba(255, 255, 255, 0.25);
+			    }
+			    .carousel-div__free {
+			          font-style: italic;
+			          font-weight: bold;
+			          color: #fff; 
+			    }
+		    }
+	    }
+	}
+	.first__carousel-div{
+		background-image: url("../images/hero-bg-01.jpg");
+	}
+	.second__carousel-div {
+    	background-image: url("../images/hero-bg-02.jpg"); 
+    }
+  	.third__carousel-div {
+    	background-image: url("../images/hero-bg-03.jpg"); 
+    }
+    .dotConatiner {
+	    position: absolute;
+	    top: 600px;
+		left: 135px;
+	    @include tablet{
+	    	top: 825px;
+    		left: 335px;
+	    }
+	    @include desktop{
+	      	top: 230px;
+	    	right: 50px;
+	    	left:initial;
+	     }
+
+	    .dot {
+	      cursor: pointer;
+	      height: 9px;
+	      width: 9px;
+	      margin: 10px 0;
+	      border-radius: 50%;
+	      display: inline-block;
+	      border: 2px solid #fff;
+	      	      @include desktop{
+	      	display: block;
+	      }
+	    }
+	    .active,.dot:hover {
+	      background-color: #fff;
+	      transition: 0.5s; 
+	    }
+	}
+}

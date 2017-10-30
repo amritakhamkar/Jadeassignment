@@ -1,0 +1,136 @@
+.FreshestFreebiesMenu{
+    padding:80px 15px; 
+    @include tablet{
+        padding:125px 25px;
+    }
+    @include desktop{
+        padding:130px 0px; 
+    }
+    .FreshestFreebiesMenu__heading{
+        @include lineAfterMenu();
+        padding:0 0 0 0;
+        @include tablet{
+
+        }
+        @include desktop{
+            padding: 0 0 0 130px; 
+           
+        }
+    }
+    .FreshestFreebiesMenu__information{
+            padding:70px 0 0 0;
+            width: 100%;
+            line-height: 28px;
+            font-size: 15px;
+            color: #414A52;
+            display: inline-block;
+            clear: both;
+            box-sizing: border-box;
+        @include desktop{
+            padding: 70px 70px;
+            
+        }
+        .FreshestFreebiesMenu__leftsection__information{
+            padding:0 0 30px 0;
+            @include desktop{
+                float: left;
+                width: 45%;
+                padding: 0 50px 0 0;
+                border-right: solid 1px #E5E7E9;
+            }
+        }
+        .FreshestFreebiesMenu__rightsection__information{
+            padding:0 0 80px 0;
+            @include desktop{
+                float: right;
+                width: 45%;
+                padding: 0 0 0 50px;
+            }
+        }
+    }
+    .FreshestFreebiesMenu__ImagesConatiner{
+        width: 100%;
+        clear:both;
+        display: inline-block;
+        .FreshestFreebiesMenu__ImageHolder{
+            position: relative;
+            width:100%;
+            height: 500px;
+            background: url(../images/sedna-freebie.jpg) no-repeat;
+            @include desktop{
+                width: 50%;
+                float: left;
+            }
+            .FreshestFreebiesMenu__Image__overlay{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: rgba(65,74,82,0.6);
+                top:0;
+                right: 0;
+                opacity: 0;
+                color: #fff;
+                clear: both;
+                .FreshestFreebiesMenu__likeDiv{
+                    margin: 40px 10px 0 40px;
+                    .FreshestFreebiesMenu__likeImg{
+                        width: 15px;
+                        margin: 0 10px 0 0;
+                        display: inline-block;
+                    }
+                    .FreshestFreebiesMenu__likeCount{
+                        display: inline-block;
+                    }
+                }
+                .FreshestFreebiesMenu__Image__overlay__data{
+                    position: absolute;
+                    top:35%;
+                    text-align: center;
+                    width: 100%;
+                    .Image__overlay__date{
+                        color: #8d9397;
+                        font-size: 13px;
+                    }
+                    .Image__overlay__heading{
+
+                        color: #fff;
+                        letter-spacing: 1px;
+                        margin: 0 auto;
+                        padding: 15px 0 25px 0;
+                        width: 80%;
+                        border-bottom: solid 2px #fff;
+                        @include tablet{
+                            width:45%;
+                        }
+                        @include desktop{
+                            width: 50%;
+                        }
+                    }
+                    .Image__overlay__link{
+                        display: inline-block;
+                        margin: 30px 0 0 0;
+                        text-decoration: none;
+                        padding: 13px;
+                        border: 2px solid $Link_color;
+                        color: $Link_color;
+                        font-size: 13px;
+                        transition:0.3s;
+                    }
+                    .Image__overlay__link:hover{
+                        background-color:$Link_color;
+                        color: #fff;
+                    }
+                }
+            }
+            .FreshestFreebiesMenu__Image__overlay:hover{
+                opacity: 1;
+                background: rgba(65,74,82,0.7);
+                transition:0.3s;
+            }
+        }
+    }
+    .FreshestFreebiesMenu__viewMore{
+        text-align: center;
+        padding: 70px 0 0 0;
+    }
+}

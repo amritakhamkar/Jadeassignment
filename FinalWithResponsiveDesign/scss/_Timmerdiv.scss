@@ -1,0 +1,63 @@
+.TimmerdivHolder{
+    background: url(../images/stats-bg.jpg) no-repeat;
+    padding:80px 0;
+    background-size: cover;
+    @include desktop{
+        padding: 150px 0;
+    }
+    @include tablet{
+        padding:150px 20px;
+    }
+   .Timmerdiv{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-family: Montserrat,Georgia,"Times New Roman",serif;
+        color: #fff;
+        box-sizing:border-box;
+        margin: 0 0 90px 0;
+        @include tablet{
+            width:32%;
+        }
+        @include desktop{
+            width: 33%;
+            margin:0;
+        }
+        .Timmerdiv__icon{
+            height: 65px;
+            display: inline-block;
+        }
+        .Timmerdiv__information{
+            display: inline-block;
+            margin: 0 0 0 15px;
+            width:120px;
+            @inlcude desktop{
+
+            }
+        }
+        .Timmerdiv__number{
+            font-size: 48px;
+            line-height: 27px;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+        .Timmerdiv__text{
+            font-size: 17px;
+            line-height: 27px;
+            text-align:left;
+        }
+    }
+    .awardsdiv{
+        @include desktop{
+            border-right: 2px solid #70777d;
+        }
+    }
+    .articles{
+        @include desktop{
+            border-right: 2px solid #70777d;
+        }
+    } 
+    .freebies{
+        margin:0;
+    }
+}

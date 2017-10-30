@@ -1,0 +1,214 @@
+$Link_color:#7AE2DE; 
+$bottom_border:solid 2px $Link_color;
+$grey_background:#414A52;
+.headerWrapper{
+	border-bottom: solid 5px $Link_color;
+    background-color: $grey_background;
+	width:100%;
+	clear:both;
+	display:inline-table;
+	.hideBorder{
+		border:none;
+	}
+	@include desktop{
+		border-bottom:none;
+		background-color:transparent;
+	}
+	@include tablet{
+		border-bottom:none;
+		background-color:transparent;
+	}
+	.header__logo{
+		display: inline-block;
+		width:70%;
+		padding: 30px 15px;
+   		box-sizing: border-box;
+   		@include desktop{
+   			width:25%;
+   			text-align:center;
+   			border-bottom: solid 5px $Link_color;
+   			background-color: $grey_background;
+   		}
+   		@include tablet{
+   			width:36%;
+   			text-align:center;
+   			border-bottom: solid 5px $Link_color;
+   			background-color: $grey_background;
+   		}
+	}
+	.header__menuWrapper{
+		position: absolute;
+    	top: 0;
+    	left: 0;
+		background:$grey_background;
+		width:100%;
+		height:100%;
+		display:none;
+		padding:100px 0 0 0;
+		clear:both;
+		@include desktop{
+			display:inline-block;
+			width:75%;
+			height:103px;
+			left:inherit;
+			box-sizing:border-box;
+			background:#fff;
+			padding:0;
+		}
+		.nav__menuWrapper{
+			clear:both;
+			@include desktop{
+				display:inline-block;
+				width:79%;
+				padding: 35px 65px 39px 190px;
+				box-sizing: border-box;
+			}
+			.nav__menu {
+				font-size: 30px;
+	    		display: block;
+	    		padding:25px 10px;
+	    		text-align:center;
+			    letter-spacing: 1px;
+			    font-weight:700;
+				@include desktop{
+			      display: inline-block;
+			      padding: 8px 16px;
+			      border-right: solid 1px #E5E7E9;
+			      font-size: 13px;
+			      font-weight: bold;
+			  	}
+			  	.nav__menu__link{
+				    text-decoration: none;
+			    	color: #fff;
+			        @include desktop{
+				     	color: $grey_background;
+				        padding: 8px 0; 
+			        }
+			    }
+		        .nav__menu__link:hover{
+			        color: $Link_color;
+			       	@include desktop{
+			        	border-bottom: solid 2px $Link_color;
+			        	transition: 0.2s;
+			        }
+		        }
+	    	}
+	    
+	        .nav__menu__freebies {
+	     	 	border: none; 
+	      	}
+	    }
+      	.header__subscribe{
+      		@include desktop{
+      			width:21%;
+		        float:right;
+    			background-color: $grey_background;
+    			box-sizing: border-box;
+    			padding: 35px 12px;
+	        }
+	       .header__subscribe__list{
+	       		@include desktop{
+		            list-style: none;
+		            clear: both;
+	            }
+	            .header__subscribe-menu{
+	            	font-size: 30px;
+				    display: block;
+				    padding: 25px 10px;
+				    text-align: center;
+				    letter-spacing: 1px;
+				    font-weight: 700;
+	            	@include desktop{
+	            		font-size:13px;
+			            padding: 10px 16px;
+			            display: inline-block;
+			            border-right: 1px solid #505c66;
+		            }
+		                .header__subscribe-menu__link{
+		                	padding: 0 0 8px 0;
+		                	text-decoration: none;
+    						color: #fff;
+		                	@include desktop{
+			                    color: $Link_color;
+			                    text-decoration: none;
+			                }
+		                }
+		                .header__subscribe-menu__link:hover{
+		                	@include desktop{
+			                    border-bottom: $bottom_border;
+			                    color: $Link_color;
+			                    transition:0.2s;
+			                }
+		                }
+	        	}
+        	}
+	        .header__subscribe-menu__search{
+	        		display:none;
+	        	@include desktop{
+	        		display:inline;
+		            float: right;
+		            padding: 7px 19px 0 0;
+		         }
+	        }
+    	}
+	    .header__search{
+	        display: none;
+	        width: 50%;
+	        background-color: $grey_background;
+	        position: absolute;
+	        right: 0;
+	        top:0;
+	        padding: 39px 30px;
+	        box-sizing: border-box;
+	        .header__search__input{
+	            border: none;
+	            border-bottom: $bottom_border;
+	            background-color: $grey_background;
+	            font-size: 14px;
+	            padding: 0 0 7px 0;
+	            width: 280px;
+	            transition:0.3s;
+	            outline: none;
+	            color: #fff;
+	        }
+	        .header__search__closebtn{
+	            width: 30px;
+	            position: absolute;
+	            right: 20px;
+	        }
+	    }
+	}
+	.header__navicon{
+		cursor: pointer;
+    	display: inline-block;
+    	padding:0 17px 0 40px;
+    	@include desktop{
+    		display:none;
+    	}
+    	@include tablet{
+    		position: absolute;
+   			top: 0;
+    		right: 0;
+    		padding: 35px;
+    		background-color:$grey_background;
+    	}
+		.nav-toggle{
+	       .bar1,.bar2,.bar3{
+	       		transition: 0.4s;
+	            display: block;
+	            width: 35px;
+	            height: 3px;
+	            content: '';
+	            border-radius: 1px;
+	          	background: #fff;
+	            margin: 6px 0;
+	        }
+	        .changeBar1{
+	        	transform:rotate(-49deg);
+	        }
+	        .changeBar2{
+	        	transform:rotate(46deg) translate(-5px,-7px);
+	        }
+         }              
+    }
+}

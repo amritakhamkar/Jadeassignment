@@ -1,0 +1,155 @@
+.crewMenu{
+    background-color: #F4F6F9;
+    padding:80px 15px; 
+    @include tablet{
+        padding:125px 25px; 
+    }
+    @include desktop{
+        padding:125px 70px 100px 70px; 
+    }
+    .crewMenu__heading{
+        padding: 0 0 50px 0;
+        @include lineAfterMenu();
+        @include tablet{
+            padding:0 0 65px 0;
+        }
+         @include desktop{
+            padding: 0 0 50px 50px;
+        }
+    }
+    .crewMenu__imageConatiner{
+        width: 100%;
+        clear: both;
+        display: inline-block;
+        .crewMenu__image__firstCrewMember{
+            background: url(../images/crew-blaz-robar.jpg)  no-repeat center;
+        }
+        .crewMenu__image__secondCrewMember{
+            background: url(../images/crew-dude.jpg) no-repeat center;
+        }
+        .crewMenu__image__thirdCrewMember{
+            background: url(../images/crew-mary-lou.jpg) no-repeat center;
+        }
+        .crewMenu__image__fourthCrewMember{
+            background: url(../images/crew-peter-finlan.jpg) no-repeat center;
+        }
+        .crewMenuImages{
+            height: 300px;
+            width: 100%;
+            margin: 0 0 30px 0;
+            background-size: cover;
+            @include tablet{
+                float: left;
+                width: 48%;
+                margin: 0 28px 30px 0;
+            }
+            @include desktop{
+               float: left;
+                width: 23%;
+                margin: 0 30px 0 0;
+            }
+            .crewMenuImages__overlay{
+                height: 100%;
+                width: 100%;
+                background:rgba(122,226,222,0.8);
+                padding: 70px 20px 20px 20px;
+                box-sizing:border-box;
+                text-align: center;
+                color: #fff;
+                line-height: 25px;
+                opacity: 0;
+                .crewMenuImages__overlay__heading{
+                    font-size: 15px;
+                }
+                .crewMenuImages__overlay__information{
+                    margin: 25px 0;
+                }
+                .crewMenuImages__overlay__twiterlink{
+                    background:url(../images/mobile_twitter.png) no-repeat;
+                    opacity: .8;
+                }
+                .crewMenuImages__overlay__facebooklink{
+                     background:url(../images/facebook.png) no-repeat;
+                    opacity: .4;
+                }
+                .crewMenuImages__overlay__link{
+                   background-size: 100%;
+                    display: inline-block;
+                    width: 20px;
+                    height: 32px; 
+                    margin: 0 20px 0 0 ;
+                }
+                .crewMenuImages__overlay__link:hover{
+                    opacity: 1;
+                }
+            }
+            .crewMenuImages__overlay:hover{
+                transition:0.2s;
+                opacity: 1;
+            }
+        }
+        .no-margin{
+            @include desktop{
+                margin:0;
+            }
+        }
+        .no-rightMargin{
+            @include tablet{
+                margin: 0 0 30px 0;
+            }
+        }
+
+    }
+    .crewMenu__progressBarsHolder{
+        width: 100%;
+        clear: both;
+        display: inline-block;
+        margin:55px 0 0 0;
+        @include desktop{
+            margin:0;
+        }
+        .crewMenu__progressBarContainer{
+            display:inline-block;
+            width: 100%;
+            font-size: 13px;
+            @include desktop{
+                float: left;
+                width: 48%;
+                margin-top:40px;
+                box-sizing:border-box;
+                font-size: 13px;
+            }
+            .progressBar_title{
+                color: #414A52;
+                float: left;
+            }
+            .progressBar__percentage{
+               float: right;
+            }
+            .progressBar__wrapper{
+                margin: 30px 0;
+                background-color: #414A52;
+                .progressBar{
+                    height: 10px;
+                    width: 0;
+                    background-color: $Link_color;
+                }
+            }
+        }
+        .crewMenu__interactiveProgressBar-margin{
+            @include desktop{
+                margin: 40px 0 0 40px;
+            }
+        }
+        .crewMenu__htmlcssProgressBar-margin{
+            @include desktop{
+                margin: 15px 0 0 0;
+            }
+        }
+        .crewMenu__visualDesignProgressBar-margin{
+            @include desktop{
+                margin: 15px 0 0 40px;
+            }
+        }
+    }
+}

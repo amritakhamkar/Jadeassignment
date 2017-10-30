@@ -1,0 +1,41 @@
+.menu__heading{
+  color: #4c4a52;
+  font-size: 15px;
+  font-family: Raleway,Verdana,Arial,sans-serif;
+  padding: 0 0 0 50px; }
+
+/*------Image Wrapper-------*/
+.Image__overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(65, 74, 82, 0.6);
+  z-index: 1; }
+
+/*--------view more link------*/
+.viewMore__link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  color: #7AE2DE;
+  border: 2px solid #7AE2DE;
+  padding: 15px;
+  letter-spacing: 1px; }
+
+.viewMore__link:hover {
+  color: #fff;
+  background: #7AE2DE;
+  transition: 0.3s; }
+
+  
+/*mixin for underline all menus*/
+@mixin lineAfterMenu() {
+
+    &:after{
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin-top: 15px;
+        content: '';
+        background-color: $Link_color;
+    }
+}
