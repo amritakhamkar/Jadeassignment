@@ -8,11 +8,12 @@
     	background-size: cover;
 	    height: 640px;
 	    position: relative;
-	    @include desktop{
-	    	height:555px;
-	    }
+	    
 	    @include tablet{
 	    	height:901px;
+	    }
+	    @include desktop{
+	    	height:555px;
 	    }
 	    .carousel-div__overlay{
 	    	position: absolute;
@@ -21,27 +22,29 @@
 	      	text-align: center;
 	     	padding: 80px 0;
 	      	box-sizing: border-box; 
-	      	@include desktop{
-	      		padding: 125px;
-	      	}
 	      	@include tablet{
 	      		padding: 230px 0;
 	      	}
+	      	@include desktop{
+	      		padding: 125px;
+	      	}
+	      
 	      	.carousel-div__overlay__heading{
 	      		font-size: 30px;
 		        color: #fff;
 		        font-weight: 100;
 		        line-height: 40px;
 		        padding:0 30px;
+		         @include tablet{
+		        	font-size: 45px;
+				    line-height: 68px;
+		        }
 		        @include desktop{
 		        	font-size: 45px;
 		        	line-height: 60px;
 		        	padding:0;
 		        }
-		        @include tablet{
-		        	font-size: 45px;
-				    line-height: 68px;
-		        }
+		       
 	      	}
 	      	.learn-more__link {
 		        text-decoration: none;
@@ -90,10 +93,9 @@
     .dotConatiner {
 	    position: absolute;
 	    top: 600px;
-		left: 135px;
+		left: 47%;
 	    @include tablet{
 	    	top: 825px;
-    		left: 335px;
 	    }
 	    @include desktop{
 	      	top: 230px;

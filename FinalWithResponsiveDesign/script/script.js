@@ -169,3 +169,7 @@ $(".subscribe__link").click(function() {
   }
     scrollingUp(".getStarted");
 });
+
+$(".footer__link__share").click(function(){
+    $(".share__dropdown").toggle();
+})

@@ -26,6 +26,12 @@
         .Timmerdiv__icon{
             height: 65px;
             display: inline-block;
+            @include tablet{
+               height: 61px; 
+            }
+            @include desktop{
+                height: 65px;
+            }
         }
         .Timmerdiv__information{
             display: inline-block;

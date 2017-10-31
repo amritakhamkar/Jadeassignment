@@ -9,11 +9,11 @@ body {
   display: inline-table; }
   .headerWrapper .hideBorder {
     border: none; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 650px) {
     .headerWrapper {
       border-bottom: none;
       background-color: transparent; } }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 1025px) {
     .headerWrapper {
       border-bottom: none;
       background-color: transparent; } }
@@ -22,15 +22,15 @@ body {
     width: 70%;
     padding: 30px 15px;
     box-sizing: border-box; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 650px) {
       .headerWrapper .header__logo {
-        width: 25%;
+        width: 36%;
         text-align: center;
         border-bottom: solid 5px #7AE2DE;
         background-color: #414A52; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 1025px) {
       .headerWrapper .header__logo {
-        width: 36%;
+        width: 25%;
         text-align: center;
         border-bottom: solid 5px #7AE2DE;
         background-color: #414A52; } }
@@ -44,7 +44,7 @@ body {
     display: none;
     padding: 100px 0 0 0;
     clear: both; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .headerWrapper .header__menuWrapper {
         display: inline-block;
         width: 75%;
@@ -55,12 +55,13 @@ body {
         padding: 0; } }
     .headerWrapper .header__menuWrapper .nav__menuWrapper {
       clear: both; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .headerWrapper .header__menuWrapper .nav__menuWrapper {
           display: inline-block;
           width: 79%;
-          padding: 35px 65px 39px 190px;
-          box-sizing: border-box; } }
+          padding: 35px 65px 39px 110px;
+          box-sizing: border-box;
+          text-align: right; } }
       .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu {
         font-size: 30px;
         display: block;
@@ -68,7 +69,7 @@ body {
         text-align: center;
         letter-spacing: 1px;
         font-weight: 700; }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1025px) {
           .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu {
             display: inline-block;
             padding: 8px 16px;
@@ -78,26 +79,26 @@ body {
         .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu .nav__menu__link {
           text-decoration: none;
           color: #fff; }
-          @media screen and (min-width: 1024px) {
+          @media screen and (min-width: 1025px) {
             .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu .nav__menu__link {
               color: #414A52;
               padding: 8px 0; } }
         .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu .nav__menu__link:hover {
           color: #7AE2DE; }
-          @media screen and (min-width: 1024px) {
+          @media screen and (min-width: 1025px) {
             .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu .nav__menu__link:hover {
               border-bottom: solid 2px #7AE2DE;
               transition: 0.2s; } }
       .headerWrapper .header__menuWrapper .nav__menuWrapper .nav__menu__freebies {
         border: none; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .headerWrapper .header__menuWrapper .header__subscribe {
         width: 21%;
         float: right;
         background-color: #414A52;
         box-sizing: border-box;
         padding: 35px 12px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe__list {
         list-style: none;
         clear: both; } }
@@ -108,7 +109,7 @@ body {
       text-align: center;
       letter-spacing: 1px;
       font-weight: 700; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe__list .header__subscribe-menu {
           font-size: 13px;
           padding: 10px 16px;
@@ -118,18 +119,18 @@ body {
         padding: 0 0 8px 0;
         text-decoration: none;
         color: #fff; }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1025px) {
           .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe__list .header__subscribe-menu .header__subscribe-menu__link {
             color: #7AE2DE;
             text-decoration: none; } }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe__list .header__subscribe-menu .header__subscribe-menu__link:hover {
           border-bottom: solid 2px #7AE2DE;
           color: #7AE2DE;
           transition: 0.2s; } }
     .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe-menu__search {
       display: none; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .headerWrapper .header__menuWrapper .header__subscribe .header__subscribe-menu__search {
           display: inline;
           float: right;
@@ -161,16 +162,16 @@ body {
     cursor: pointer;
     display: inline-block;
     padding: 0 17px 0 40px; }
-    @media screen and (min-width: 1024px) {
-      .headerWrapper .header__navicon {
-        display: none; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .headerWrapper .header__navicon {
         position: absolute;
         top: 0;
         right: 0;
         padding: 35px;
         background-color: #414A52; } }
+    @media screen and (min-width: 1025px) {
+      .headerWrapper .header__navicon {
+        display: none; } }
     .headerWrapper .header__navicon .nav-toggle .bar1, .headerWrapper .header__navicon .nav-toggle .bar2, .headerWrapper .header__navicon .nav-toggle .bar3 {
       transition: 0.4s;
       display: block;
@@ -195,12 +196,12 @@ body {
     background-size: cover;
     height: 640px;
     position: relative; }
-    @media screen and (min-width: 1024px) {
-      .carousel-divs .carousel-div {
-        height: 555px; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .carousel-divs .carousel-div {
         height: 901px; } }
+    @media screen and (min-width: 1025px) {
+      .carousel-divs .carousel-div {
+        height: 555px; } }
     .carousel-divs .carousel-div .carousel-div__overlay {
       position: absolute;
       width: 100%;
@@ -208,27 +209,27 @@ body {
       text-align: center;
       padding: 80px 0;
       box-sizing: border-box; }
-      @media screen and (min-width: 1024px) {
-        .carousel-divs .carousel-div .carousel-div__overlay {
-          padding: 125px; } }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 650px) {
         .carousel-divs .carousel-div .carousel-div__overlay {
           padding: 230px 0; } }
+      @media screen and (min-width: 1025px) {
+        .carousel-divs .carousel-div .carousel-div__overlay {
+          padding: 125px; } }
       .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__heading {
         font-size: 30px;
         color: #fff;
         font-weight: 100;
         line-height: 40px;
         padding: 0 30px; }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 650px) {
+          .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__heading {
+            font-size: 45px;
+            line-height: 68px; } }
+        @media screen and (min-width: 1025px) {
           .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__heading {
             font-size: 45px;
             line-height: 60px;
             padding: 0; } }
-        @media screen and (max-width: 1023px) and (min-width: 768px) {
-          .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__heading {
-            font-size: 45px;
-            line-height: 68px; } }
       .carousel-divs .carousel-div .carousel-div__overlay .learn-more__link {
         text-decoration: none;
         display: inline-block;
@@ -243,7 +244,7 @@ body {
       .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__dataConatiner {
         width: 100%;
         margin: 0 auto; }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1025px) {
           .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__dataConatiner {
             width: 74%; } }
         .carousel-divs .carousel-div .carousel-div__overlay .carousel-div__overlay__dataConatiner .carousel-div__overlay__data {
@@ -267,12 +268,11 @@ body {
   .carousel-divs .dotConatiner {
     position: absolute;
     top: 600px;
-    left: 135px; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    left: 47%; }
+    @media screen and (min-width: 650px) {
       .carousel-divs .dotConatiner {
-        top: 825px;
-        left: 335px; } }
-    @media screen and (min-width: 1024px) {
+        top: 825px; } }
+    @media screen and (min-width: 1025px) {
       .carousel-divs .dotConatiner {
         top: 230px;
         right: 50px;
@@ -285,7 +285,7 @@ body {
       border-radius: 50%;
       display: inline-block;
       border: 2px solid #fff; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .carousel-divs .dotConatiner .dot {
           display: block; } }
     .carousel-divs .dotConatiner .active, .carousel-divs .dotConatiner .dot:hover {
@@ -325,10 +325,10 @@ body {
   padding: 80px 15px;
   clear: both;
   display: inline-block; }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 650px) {
     .collectiveMenu {
       padding: 125px 25px; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .collectiveMenu {
       padding: 130px 100px 80px 130px; } }
   .collectiveMenu .collectiveMenu__heading {
@@ -340,13 +340,13 @@ body {
       margin-top: 15px;
       content: '';
       background-color: #7AE2DE; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .collectiveMenu .collectiveMenu__heading {
         float: left; } }
   .collectiveMenu .collectiveMenu__container {
     width: 100%;
     padding: 65px 0 0 0; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .collectiveMenu .collectiveMenu__container {
         float: left;
         width: 87%; } }
@@ -354,15 +354,15 @@ body {
     font-size: 15px;
     line-height: 28px;
     color: #414A52; }
-    @media screen and (min-width: 1024px) {
-      .collectiveMenu .collectiveMenu__information {
-        padding: 0 0 50px 110px; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .collectiveMenu .collectiveMenu__information {
         font-size: 16px; } }
+    @media screen and (min-width: 1025px) {
+      .collectiveMenu .collectiveMenu__information {
+        padding: 0 0 50px 110px; } }
   .collectiveMenu .collectiveMenu-bottompadding {
     padding: 0 0 25px 0; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .collectiveMenu .collectiveMenu-bottompadding {
         padding: 0 0 25px 110px; } }
   .collectiveMenu .collectiveMenu__video {
@@ -372,10 +372,10 @@ body {
     background-color: #000;
     width: 100%;
     height: 300px; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .collectiveMenu .collectiveMenu__video {
         width: 584px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .collectiveMenu .collectiveMenu__video {
         margin: 0 0 50px 0;
         width: 555px;
@@ -386,10 +386,10 @@ body {
 .crewMenu {
   background-color: #F4F6F9;
   padding: 80px 15px; }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 650px) {
     .crewMenu {
       padding: 125px 25px; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .crewMenu {
       padding: 125px 70px 100px 70px; } }
   .crewMenu .crewMenu__heading {
@@ -401,10 +401,10 @@ body {
       margin-top: 15px;
       content: '';
       background-color: #7AE2DE; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .crewMenu .crewMenu__heading {
         padding: 0 0 65px 0; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .crewMenu .crewMenu__heading {
         padding: 0 0 50px 50px; } }
   .crewMenu .crewMenu__imageConatiner {
@@ -412,24 +412,24 @@ body {
     clear: both;
     display: inline-block; }
     .crewMenu .crewMenu__imageConatiner .crewMenu__image__firstCrewMember {
-      background: url(../images/crew-blaz-robar.jpg) no-repeat center; }
+      background-image: url(../images/crew-blaz-robar.jpg); }
     .crewMenu .crewMenu__imageConatiner .crewMenu__image__secondCrewMember {
-      background: url(../images/crew-dude.jpg) no-repeat center; }
+      background-image: url(../images/crew-dude.jpg); }
     .crewMenu .crewMenu__imageConatiner .crewMenu__image__thirdCrewMember {
-      background: url(../images/crew-mary-lou.jpg) no-repeat center; }
+      background-image: url(../images/crew-mary-lou.jpg); }
     .crewMenu .crewMenu__imageConatiner .crewMenu__image__fourthCrewMember {
-      background: url(../images/crew-peter-finlan.jpg) no-repeat center; }
+      background-image: url(../images/crew-peter-finlan.jpg); }
     .crewMenu .crewMenu__imageConatiner .crewMenuImages {
       height: 300px;
       width: 100%;
       margin: 0 0 30px 0;
       background-size: cover; }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 650px) {
         .crewMenu .crewMenu__imageConatiner .crewMenuImages {
           float: left;
-          width: 48%;
-          margin: 0 28px 30px 0; } }
-      @media screen and (min-width: 1024px) {
+          width: 47%;
+          margin: 0 30px 30px 0; } }
+      @media screen and (min-width: 1025px) {
         .crewMenu .crewMenu__imageConatiner .crewMenuImages {
           float: left;
           width: 23%;
@@ -465,25 +465,28 @@ body {
       .crewMenu .crewMenu__imageConatiner .crewMenuImages .crewMenuImages__overlay:hover {
         transition: 0.2s;
         opacity: 1; }
-    @media screen and (min-width: 1024px) {
-      .crewMenu .crewMenu__imageConatiner .no-margin {
-        margin: 0; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .crewMenu .crewMenu__imageConatiner .no-rightMargin {
         margin: 0 0 30px 0; } }
+    @media screen and (min-width: 1025px) {
+      .crewMenu .crewMenu__imageConatiner .no-rightMargin {
+        margin: 0 30px 0 0; } }
+    @media screen and (min-width: 1025px) {
+      .crewMenu .crewMenu__imageConatiner .no-margin {
+        margin: 0; } }
   .crewMenu .crewMenu__progressBarsHolder {
     width: 100%;
     clear: both;
     display: inline-block;
     margin: 55px 0 0 0; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .crewMenu .crewMenu__progressBarsHolder {
         margin: 0; } }
     .crewMenu .crewMenu__progressBarsHolder .crewMenu__progressBarContainer {
       display: inline-block;
       width: 100%;
       font-size: 13px; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .crewMenu .crewMenu__progressBarsHolder .crewMenu__progressBarContainer {
           float: left;
           width: 48%;
@@ -502,13 +505,13 @@ body {
           height: 10px;
           width: 0;
           background-color: #7AE2DE; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .crewMenu .crewMenu__progressBarsHolder .crewMenu__interactiveProgressBar-margin {
         margin: 40px 0 0 40px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .crewMenu .crewMenu__progressBarsHolder .crewMenu__htmlcssProgressBar-margin {
         margin: 15px 0 0 0; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .crewMenu .crewMenu__progressBarsHolder .crewMenu__visualDesignProgressBar-margin {
         margin: 15px 0 0 40px; } }
 
@@ -516,10 +519,10 @@ body {
   background: url(../images/stats-bg.jpg) no-repeat;
   padding: 80px 0;
   background-size: cover; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .TimmerdivHolder {
       padding: 150px 0; } }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 650px) {
     .TimmerdivHolder {
       padding: 150px 20px; } }
   .TimmerdivHolder .Timmerdiv {
@@ -530,16 +533,22 @@ body {
     color: #fff;
     box-sizing: border-box;
     margin: 0 0 90px 0; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .TimmerdivHolder .Timmerdiv {
         width: 32%; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .TimmerdivHolder .Timmerdiv {
         width: 33%;
         margin: 0; } }
     .TimmerdivHolder .Timmerdiv .Timmerdiv__icon {
       height: 65px;
       display: inline-block; }
+      @media screen and (min-width: 650px) {
+        .TimmerdivHolder .Timmerdiv .Timmerdiv__icon {
+          height: 61px; } }
+      @media screen and (min-width: 1025px) {
+        .TimmerdivHolder .Timmerdiv .Timmerdiv__icon {
+          height: 65px; } }
     .TimmerdivHolder .Timmerdiv .Timmerdiv__information {
       display: inline-block;
       margin: 0 0 0 15px;
@@ -554,10 +563,10 @@ body {
       font-size: 17px;
       line-height: 27px;
       text-align: left; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .TimmerdivHolder .awardsdiv {
       border-right: 2px solid #70777d; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .TimmerdivHolder .articles {
       border-right: 2px solid #70777d; } }
   .TimmerdivHolder .freebies {
@@ -566,10 +575,10 @@ body {
 .articlesMenu {
   background-color: #F4F6F9;
   padding: 80px 15px; }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 650px) {
     .articlesMenu {
       padding: 125px 25px; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .articlesMenu {
       padding: 130px 70px; } }
   .articlesMenu .articlesMenu__headerContainer {
@@ -587,28 +596,28 @@ body {
         margin-top: 15px;
         content: '';
         background-color: #7AE2DE; }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 650px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__heading {
           float: left; } }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__heading {
           padding: 0 0 0 50px;
           float: left;
           margin: 7px 0 0 0; } }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv {
         float: right; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv {
         float: right; } }
     .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv .articlesMenu__dropdownTitle {
       font-size: 13px;
       color: #414A52; }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 650px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv .articlesMenu__dropdownTitle {
           float: left;
           margin: 2px 0 0 0; } }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv .articlesMenu__dropdownTitle {
           padding: 0 0 0 560px;
           float: left;
@@ -623,13 +632,13 @@ body {
       width: 100%;
       margin: 20px 0;
       padding: 0 0 9px 0; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 650px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv .articlesMenu__dropdown {
           float: right;
           width: 300px;
           margin: 0 0 0 20px;
           display: inline-block; } }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 1025px) {
         .articlesMenu .articlesMenu__headerContainer .articlesMenu__dropdownDiv .articlesMenu__dropdown {
           float: right;
           width: 300px;
@@ -642,7 +651,7 @@ body {
     .articlesMenu .articlesMenu__articlesContainer .articlesMenu__articlesHolder {
       width: 100%;
       margin: 0 0 50px 0; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .articlesMenu .articlesMenu__articlesContainer .articlesMenu__articlesHolder {
           width: 31.5%;
           float: left;
@@ -651,7 +660,8 @@ body {
         text-decoration: none;
         color: #414A52;
         border-bottom: solid 1px #E5E7E9;
-        display: inline-block; }
+        display: inline-block;
+        width: 100%; }
         .articlesMenu .articlesMenu__articlesContainer .articlesMenu__articlesHolder .articlesMenu__article__link .articlesMenu__articleImage {
           background: url(../images/article-01.jpg) no-repeat;
           background-size: cover;
@@ -697,10 +707,10 @@ body {
 
 .FreshestFreebiesMenu {
   padding: 80px 15px; }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  @media screen and (min-width: 650px) {
     .FreshestFreebiesMenu {
       padding: 125px 25px; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .FreshestFreebiesMenu {
       padding: 130px 0px; } }
   .FreshestFreebiesMenu .FreshestFreebiesMenu__heading {
@@ -712,7 +722,7 @@ body {
       margin-top: 15px;
       content: '';
       background-color: #7AE2DE; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .FreshestFreebiesMenu .FreshestFreebiesMenu__heading {
         padding: 0 0 0 130px; } }
   .FreshestFreebiesMenu .FreshestFreebiesMenu__information {
@@ -724,12 +734,12 @@ body {
     display: inline-block;
     clear: both;
     box-sizing: border-box; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .FreshestFreebiesMenu .FreshestFreebiesMenu__information {
         padding: 70px 70px; } }
     .FreshestFreebiesMenu .FreshestFreebiesMenu__information .FreshestFreebiesMenu__leftsection__information {
       padding: 0 0 30px 0; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .FreshestFreebiesMenu .FreshestFreebiesMenu__information .FreshestFreebiesMenu__leftsection__information {
           float: left;
           width: 45%;
@@ -737,7 +747,7 @@ body {
           border-right: solid 1px #E5E7E9; } }
     .FreshestFreebiesMenu .FreshestFreebiesMenu__information .FreshestFreebiesMenu__rightsection__information {
       padding: 0 0 80px 0; }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .FreshestFreebiesMenu .FreshestFreebiesMenu__information .FreshestFreebiesMenu__rightsection__information {
           float: right;
           width: 45%;
@@ -750,8 +760,9 @@ body {
       position: relative;
       width: 100%;
       height: 500px;
-      background: url(../images/sedna-freebie.jpg) no-repeat; }
-      @media screen and (min-width: 1024px) {
+      background: url(../images/sedna-freebie.jpg) no-repeat;
+      background-size: cover; }
+      @media screen and (min-width: 1025px) {
         .FreshestFreebiesMenu .FreshestFreebiesMenu__ImagesConatiner .FreshestFreebiesMenu__ImageHolder {
           width: 50%;
           float: left; } }
@@ -788,10 +799,10 @@ body {
             padding: 15px 0 25px 0;
             width: 80%;
             border-bottom: solid 2px #fff; }
-            @media screen and (max-width: 1023px) and (min-width: 768px) {
+            @media screen and (min-width: 650px) {
               .FreshestFreebiesMenu .FreshestFreebiesMenu__ImagesConatiner .FreshestFreebiesMenu__ImageHolder .FreshestFreebiesMenu__Image__overlay .FreshestFreebiesMenu__Image__overlay__data .Image__overlay__heading {
                 width: 45%; } }
-            @media screen and (min-width: 1024px) {
+            @media screen and (min-width: 1025px) {
               .FreshestFreebiesMenu .FreshestFreebiesMenu__ImagesConatiner .FreshestFreebiesMenu__ImageHolder .FreshestFreebiesMenu__Image__overlay .FreshestFreebiesMenu__Image__overlay__data .Image__overlay__heading {
                 width: 50%; } }
           .FreshestFreebiesMenu .FreshestFreebiesMenu__ImagesConatiner .FreshestFreebiesMenu__ImageHolder .FreshestFreebiesMenu__Image__overlay .FreshestFreebiesMenu__Image__overlay__data .Image__overlay__link {
@@ -824,10 +835,10 @@ body {
     font-size: 28px;
     display: inline-block;
     line-height: 40px; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .getStarted .getStarted__heading {
         margin: 0 50px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .getStarted .getStarted__heading {
         margin: 0; } }
     .getStarted .getStarted__heading .free__link {
@@ -842,7 +853,7 @@ body {
     color: #fff;
     display: inline-block;
     margin: 30px 0 0 0; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .getStarted .getStarted__link {
         margin: 0 0 0 40px; } }
   .getStarted .getStarted__link:hover {
@@ -852,19 +863,20 @@ body {
 
 .footer {
   background-color: #414A52;
-  padding: 80px 0; }
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+  padding: 80px 0;
+  position: relative; }
+  @media screen and (min-width: 650px) {
     .footer {
       padding: 125px 0; } }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1025px) {
     .footer {
       padding: 130px 70px; } }
   .footer .footer__dataConatiner {
     padding: 0 15px 60px 15px; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .footer .footer__dataConatiner {
         padding: 0 20px 60px 20px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .footer .footer__dataConatiner {
         padding: 0 0 60px 12px; } }
     .footer .footer__dataConatiner .footer__data {
@@ -886,10 +898,10 @@ body {
     display: inline-block;
     width: 100%;
     box-sizing: border-box; }
-    @media screen and (max-width: 1023px) and (min-width: 768px) {
+    @media screen and (min-width: 650px) {
       .footer .footer__linkConatiner {
         padding: 40px 20px 0 20px; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .footer .footer__linkConatiner {
         padding: 40px 12px 0 12px; } }
     .footer .footer__linkConatiner .footer__link {
@@ -900,10 +912,10 @@ body {
       padding: 0px 0 15px 0;
       border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
       width: 100%; }
-      @media screen and (max-width: 1023px) and (min-width: 768px) {
+      @media screen and (min-width: 650px) {
         .footer .footer__linkConatiner .footer__link {
           margin: 0 60px 40px 0; } }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 1025px) {
         .footer .footer__linkConatiner .footer__link {
           display: inline-block;
           margin: 0 60px 0 0;
@@ -911,14 +923,52 @@ body {
           width: initial; } }
     .footer .footer__linkConatiner .footer__link:hover {
       color: #7AE2DE; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .footer .footer__linkConatiner .footer__left__linkConatiner {
         float: left; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1025px) {
       .footer .footer__linkConatiner .footer__right__linkConatiner {
         float: right; } }
     .footer .footer__linkConatiner .footer__right__linkConatiner .footer__link__share {
-      margin: 0; }
+      cursor: pointer;
+      margin: 55px 0 0 0; }
+      @media screen and (min-width: 1025px) {
+        .footer .footer__linkConatiner .footer__right__linkConatiner .footer__link__share {
+          margin: 0; } }
+    .footer .footer__linkConatiner .share__dropdown {
+      display: none;
+      transition: 0.3s;
+      position: absolute;
+      top: 67%;
+      right: 44%;
+      background-color: #fff;
+      border-radius: 5px; }
+      @media screen and (min-width: 650px) {
+        .footer .footer__linkConatiner .share__dropdown {
+          top: 66%;
+          right: 82%; } }
+      @media screen and (min-width: 1025px) {
+        .footer .footer__linkConatiner .share__dropdown {
+          top: 48%;
+          right: 4%; } }
+      .footer .footer__linkConatiner .share__dropdown ul {
+        list-style: none; }
+      .footer .footer__linkConatiner .share__dropdown .share__dropdown__link {
+        display: inline-block;
+        margin: 10px 0;
+        padding: 5px 20px;
+        border-right: solid 1px #E5E7E9; }
+    .footer .footer__linkConatiner .share__dropdown:after {
+      position: absolute;
+      right: 80%;
+      content: ' ';
+      pointer-events: none;
+      border: solid transparent;
+      border-width: 5px;
+      border-top-color: #fff; }
+      @media screen and (min-width: 1025px) {
+        .footer .footer__linkConatiner .share__dropdown:after {
+          right: 26%; } }
     .footer .footer__linkConatiner .footer__information {
       display: inline-block;
       margin: 40px 0 0 0;
@@ -926,11 +976,14 @@ body {
       color: #7a8781;
       font-weight: 200;
       line-height: 27px; }
+      @media screen and (min-width: 1025px) {
+        .footer .footer__linkConatiner .footer__information {
+          display: block; } }
       .footer .footer__linkConatiner .footer__information .Codrops__link {
         display: block;
         text-decoration: none;
         color: #fff; }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1025px) {
           .footer .footer__linkConatiner .footer__information .Codrops__link {
             display: inline-block; } }
 

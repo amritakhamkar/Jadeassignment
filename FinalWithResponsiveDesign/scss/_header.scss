@@ -10,31 +10,33 @@ $grey_background:#414A52;
 	.hideBorder{
 		border:none;
 	}
-	@include desktop{
-		border-bottom:none;
-		background-color:transparent;
-	}
 	@include tablet{
 		border-bottom:none;
 		background-color:transparent;
 	}
+	@include desktop{
+		border-bottom:none;
+		background-color:transparent;
+	}
+	
 	.header__logo{
 		display: inline-block;
 		width:70%;
 		padding: 30px 15px;
    		box-sizing: border-box;
-   		@include desktop{
-   			width:25%;
-   			text-align:center;
-   			border-bottom: solid 5px $Link_color;
-   			background-color: $grey_background;
-   		}
    		@include tablet{
    			width:36%;
    			text-align:center;
    			border-bottom: solid 5px $Link_color;
    			background-color: $grey_background;
    		}
+   		@include desktop{
+   			width:25%;
+   			text-align:center;
+   			border-bottom: solid 5px $Link_color;
+   			background-color: $grey_background;
+   		}
+   		
 	}
 	.header__menuWrapper{
 		position: absolute;
@@ -60,8 +62,9 @@ $grey_background:#414A52;
 			@include desktop{
 				display:inline-block;
 				width:79%;
-				padding: 35px 65px 39px 190px;
+				padding: 35px 65px 39px 110px;
 				box-sizing: border-box;
+				text-align: right;
 			}
 			.nav__menu {
 				font-size: 30px;
@@ -182,9 +185,6 @@ $grey_background:#414A52;
 		cursor: pointer;
     	display: inline-block;
     	padding:0 17px 0 40px;
-    	@include desktop{
-    		display:none;
-    	}
     	@include tablet{
     		position: absolute;
    			top: 0;
@@ -192,6 +192,10 @@ $grey_background:#414A52;
     		padding: 35px;
     		background-color:$grey_background;
     	}
+    	@include desktop{
+    		display:none;
+    	}
+    	
 		.nav-toggle{
 	       .bar1,.bar2,.bar3{
 	       		transition: 0.4s;

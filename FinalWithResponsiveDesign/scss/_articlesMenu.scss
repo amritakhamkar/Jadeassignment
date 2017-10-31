@@ -56,14 +56,14 @@
                 width:100%;
                 margin:20px 0;
                 padding: 0 0 9px 0;
-                @include desktop{
+                @include tablet{
                     float: right;
                     width: 300px;
                     margin: 0 0 0 20px;
                     display: inline-block;
                     
                 }
-                @include tablet{
+                @include desktop{
                     float: right;
                     width: 300px;
                     margin: 0 0 0 20px;
@@ -90,6 +90,7 @@
                 color: #414A52;
                 border-bottom: solid 1px #E5E7E9;
                 display: inline-block;
+                width: 100%;
                 .articlesMenu__articleImage{
                     background: url(../images/article-01.jpg) no-repeat;
                     background-size: cover;
