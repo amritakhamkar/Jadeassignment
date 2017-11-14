@@ -58,5 +58,8 @@
     .collectiveMenu__videoPlayer {
         padding: 0 0 55px 0; 
     }
+    video[poster]{
+  width:10px;
+  }
   }
 }

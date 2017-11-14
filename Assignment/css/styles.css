@@ -1,0 +1,378 @@
+.body{
+	background: red;
+}
+
+.wrapper{
+	margin: auto;
+	width: 1000px;
+	clear: both;
+	display: table;
+}
+
+
+.leftcontainer{
+	width:300px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background: #a51087;
+	margin:10px;
+	float: left;
+}
+
+
+.leftcontainer a{
+	display: block;
+	height: 40px;
+	width: 250px;
+	font-size: 24px;
+	padding-left:50px; 
+	padding-bottom: 15px;
+    padding-top: 15px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.leftcontainer a:hover{
+	color: #ffff00;
+	background: #7b2852;
+}
+
+
+.leftcontainer a span{
+	margin-left: 10px;
+}
+
+
+.menuimg{
+	/*padding-top: 15px;*/
+	height: 20px;
+	width: 25px;
+}
+
+
+.rightcontainer{
+	float: left;
+}
+
+
+.imgholder{
+
+	background-image:url("../Images/1200x800-01.jpg");
+	width:640px; 
+	float: left;
+	height: 440px;
+	background-size: 100% 100%;
+	margin: 10px;
+	padding-left: 15px;
+	clear: both;
+	display: table;
+}
+
+.box{
+	height: 180px;
+	width:290px;
+	background: rgba(255,255,255,0.7);
+	margin-left: 15px;
+	margin-top: 260px;
+	float:left;
+}
+
+
+
+.text1{
+	line-height: 25px;
+	margin-left: 20px;
+
+}
+
+
+.heading1{
+
+	text-align: center;
+	color: #993365;
+}
+
+
+.link1{
+	display: block;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-decoration none;
+	width:290px;
+	background:  #993365;
+	height: 30px;
+	border:none;
+	color: white;
+	font-size: 18px;
+}
+
+
+.imagesbox{
+	margin-top: 80px;
+	clear: both;
+	padding-top: 50px;
+    padding-left: 10px;
+    clear: both;
+    display: table;
+}
+
+
+.image1{
+	background-image: url("../Images/bridge.jpg");
+	height:200px;
+	width:205px;
+	margin-right:20px;
+	float: left;
+	background-size: 100% 100%;
+	position:relative;
+}
+
+
+.cover{
+	background: rgba(186,143,86,0.6);
+	height:200px;
+	width:205px;
+}
+
+
+.imgcontent{
+	font-size: 34px;
+	color: white;
+	padding-left: 30PX;
+	padding-right: 35px;
+    margin-top: 40px;
+    text-align: center;
+    position: absolute;
+}
+
+
+.imgproperty{
+	height:200px;
+	width:205px;
+	margin-right:20px;
+	margin-top: 20px;
+	float: left;
+	background-size: 100% 100%;
+	position:relative;
+}
+
+
+.img36margin{
+	margin-right:0;
+}
+
+.image2{
+	background-image: url("../Images/glasstower.jpg");
+}
+
+
+
+.image3{
+	background-image: url("../Images/jump.jpg");
+}
+
+
+.image4{
+	background-image: url("../Images/forestpark.jpg");
+}
+
+
+.image5{
+	background-image: url("../Images/moutain.jpg");
+}
+
+
+.image6{
+	background-image: url("../Images/field.jpg");
+}
+
+
+.imgwithtext{
+	/*margin-top: 50px;*/
+	width:665px;
+	clear: both;
+	display: table;
+}
+
+
+.shipimg{
+	background-image: url("../Images/ships.jpg");
+	margin-top: 50px;
+    margin-left: 10px;
+	height:440px;
+	width:230px;
+	float: left;
+	background-size: 100% 100%
+}
+
+
+.text{
+	width:365px;
+	height:400px;
+	margin-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 35px;
+	float: left;
+	background-color:#f9f4f8;
+}
+
+
+.info{
+	border:solid 1px #AD1F6B;
+	height: 540px;
+	width:655px;
+	margin-top: 50px;
+	margin-left: 10px;
+	clear: both;
+	display: table;
+}
+
+
+.infobox1{
+	width: 655px;
+	height: 261px;
+}
+
+
+.infobox2{
+	background: #a51087;
+	width: 327px;
+	height: 261px;
+	float: left;
+}
+
+
+.infobox3{
+	background: #f9f4f8;
+	border-top:solid 1px #AD1F6B;
+	width: 327px;
+	height: 260px;
+	float: left;
+}
+
+
+.box1text{
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 30px;
+
+}
+
+
+
+.readbtn{
+	border:none;
+	height:50px;
+	width:140px;
+	margin-left: 20px;
+	background: #a51087;
+	color: white;
+}
+
+
+.box2heading{
+	color: white;
+	padding-top:30px;
+	padding-left: 30px;
+}
+
+
+.box2text{
+	
+	padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+
+.box3heading{
+	padding-top:30px;
+	padding-left: 30px;
+	color: #AD1F6B;
+
+}
+
+
+.box3text{
+	padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    color: #AD1F6B;
+ }
+
+
+
+.locationdiv{
+	height: 480px;
+	width: 665px;
+    margin-top: 50px;
+    clear:both;
+    display: table;
+}
+
+
+.formdiv{
+	width: 327px;
+	height:470px;
+	background: #f9f4f8;
+	margin-left: 10px;
+	float: left;
+}
+
+
+.inputtxt{
+	margin-left: 30px;
+	height: 20px;
+	margin-bottom:20px;
+	width:255px;
+	padding-left: 5px;
+}
+
+
+.txtarea{
+	margin-left: 30px;
+	height: 200px;
+	margin-bottom:20px;
+	width:255px;
+	padding-left: 5px;
+}
+
+
+.submitbtn{
+	width: 130px;
+	height: 40px;
+	background: #AD1F6B;
+	color: white;
+	margin-left: 170px;
+	border:none;
+	font-size: 20px;
+}
+
+
+.mapdiv{
+	background:#a51087;
+	width: 327px;
+	height:470px;
+	float: left;
+}
+
+
+.mapimg{
+	height: 245px;
+	width: 265px;
+	margin-left: 30px;
+}
+
+
+h4{
+	padding-left: 560px;
+	opacity: 0.4;
+}
+

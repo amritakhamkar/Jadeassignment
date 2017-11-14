@@ -1,0 +1,413 @@
+body
+{
+	
+	padding: 0px;
+	margin: 0px;
+	background: #e7ebe0;
+	
+}
+.wrapper
+{
+	
+	width:80%;
+	margin: auto;
+	
+}
+.logodiv
+{
+	background: white;
+	width:100%;
+	margin:auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text
+{
+	padding-left: 10px;
+	margin-left: 10px;
+	font-size: 40px;
+	
+}
+.menudiv
+{
+	background: black;
+	width: 100%;
+	clear: both;
+	display: inline-table;
+	
+
+}
+.menulink
+{
+	display: inline-block;
+	width: 9%;
+	color: #FFF;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+
+}
+.linkwithlogo
+{
+	width: 13%;
+	padding-left: 0;
+}
+.roundlink
+{
+	display: inline-block;
+	height:20px;
+	width: 20px;
+	border-radius: 12px;
+	background: #777777;
+	font-size: 18px;
+	padding-left: 6px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+
+}
+.flogo
+{
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	float: right;
+	margin-top: 10px;
+	margin-right:10px;
+	padding-left: 5px;
+	height:20px;
+	width: 20px;
+	border-radius: 12px;
+	background: #fff;
+	font-size: 18px;
+	padding-left:10px;	
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+/*.roundf
+{
+	display: inline-block;
+	height:20px;
+	width: 20px;
+	border-radius: 12px;
+	background: #fff;
+	font-size: 18px;
+	padding-left:8px;	
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}*/
+.gradientdiv
+{
+	width: 100%;
+	 background: radial-gradient(white 2%,pink 98%);
+	 height: 300px;
+	 margin-top: 20px;
+	 padding-top: 120px;
+}
+
+.imgtextdim
+{
+	color: #990033;
+	font-size: 38px;
+	text-align: center;
+	margin-top: -23px;
+	
+
+}
+.imgtext
+{
+	color: #990033;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+.rounddiv
+{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background: #777;
+	margin-right: 15px;
+
+}
+.dotdiv
+{
+	
+	text-align: center;
+	padding-top: 15px;
+}
+.prevlink
+{
+	display: inline-block;
+	width: 5%;
+	font-size: 14px;
+	background: #777;
+	color:white;
+	text-decoration: none;
+	margin-top: 5px;
+	border-radius: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.container
+{
+	width: 100%;
+	padding-left: 0;
+	clear: both;
+	display: inline-table;
+
+
+}
+.divwithtext
+{
+	width: 28%;
+	background: #ffffff;
+	float: left;
+	margin-top: 20px;
+	margin-right: 30px;
+	padding-left: 17px;
+	padding-top: 10px;
+	padding-right: 17px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	line-height: 25px;
+
+}
+.div3
+{
+	margin-right: 0px;
+}
+
+footer
+{
+	margin-top: 10px;
+	background: white;
+	font-size: 14px;
+	padding: 20px;
+	margin-bottom: 20px;
+
+
+}
+.textwithnavigation
+{
+	background: #ffffff;
+	padding: 15px;
+	margin-top: 20px;
+	
+	line-height: 25px;
+	clear: both;
+	display: inline-table;
+	
+
+
+}
+.textonly
+{
+	float: left;
+	width: 66%;
+	font-size: 14px;
+	padding: 5px;
+	margin-right: 10px;
+}
+/*.pragraph1
+{
+
+	font-size: 14px;
+}*/
+.navigationdiv
+{
+	width: 31%;
+	float: left;
+}
+
+.menu
+{
+	display: block;
+    width: 88%;
+    font-size: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background-color:#e7ebe0;
+    border: 1px solid #e1e1d0;
+  	padding-right: 10px;
+}
+.symbol
+{
+	float: right;
+}
+.gallerydiv
+{
+	margin-top: 10px;
+	clear: both;
+	display: inline-table;
+	width: 100%;
+}
+.imgdiv
+{
+	width:24% ;
+	border: 1px solid black;
+	/*height: 100px;*/
+	float: left;
+	padding-left: 8px;
+
+}
+.galleytext
+{
+	font-size:20px;
+	margin:30px; 
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+
+
+}
+
+.bluediv
+{
+	background: radial-gradient(white 2%,#80ffff 98%);
+}
+
+.bluetext
+{
+	color: #00cccc;
+}
+
+.pinkdiv
+{
+	background: radial-gradient(white 2%,#ff99bb 98%);
+}
+
+.pinktext
+{
+	color: #990033;
+}
+
+.yellowdiv
+{
+	background: radial-gradient(white 2%,#ffff80 98%);
+}
+.yellowtext
+{
+	color: #669900;
+}
+.buttondiv
+{
+	 
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+@media  screen and (max-width: 600px) {
+	.menulink
+{
+	display: block;
+	padding-left: 20px;
+	width: 80%;
+
+}
+.flogo
+{
+	margin-top: -160px;
+
+}
+.gradientdiv {
+    
+   padding-top: 5px;
+    padding-bottom: 20px;
+    height: 180px;
+}
+.prevlink
+{
+	width: 15%;
+}
+
+.divwithtext
+{
+	width: 89%;
+}
+.textwithnavigation
+{
+	width: 91%;
+}
+.textonly
+{
+	float: none;
+	width: 100%;
+	
+}
+
+.navigationdiv
+{
+	width: 94%;
+}
+.imgdiv
+{
+	width: 100%;
+
+}
+footer
+{
+	font-size: 10px;
+}
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 500px)
+{
+	.menulink
+{
+	display: block;
+	padding-left: 20px;
+	width: 80%;
+
+}
+.flogo
+{
+	margin-top: -160px;
+
+}
+
+.divwithtext
+{
+	width: 42%;
+	float: left;
+}
+.div2
+{
+	margin-right: 0;
+}
+.textwithnavigation
+{
+	width: 96%;
+}
+.textonly
+{
+	float: none;
+	width: 100%;
+	
+}
+.menu
+{
+	width: 90%;
+}
+
+.navigationdiv
+{
+	width: 96%;
+
+}
+
+.imgdiv
+{
+	width: 48%;
+	padding-right: 2px;
+}
+}
