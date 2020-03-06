@@ -26,7 +26,7 @@ $(document).ready(function () {
           });
         }
 
-        //function for counter
+        //function for  counter
         var off = $(".TimmerdivHolder").offset().top; 
         var top = $(window).scrollTop() + $(window).height();
         if (off <= top && TimerCounter==0) {
@@ -109,6 +109,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//function for sildes 
 function showSlides(n) {
   var i;
   var slides = $(".carousel-div");
